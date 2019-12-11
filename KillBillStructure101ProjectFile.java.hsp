@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="5.0.15111" xml-version="3" flavor="j2se">
+  <property name="show-groupids" value="false" />
+  <property name="show-as-module" value="false" />
+  <property name="show-profiles" value="false" />
+  <property name="publish-architecture-artifacts" value="true" />
+  <property name="force-classpath" value="false" />
+  <property name="project-type" value="maven" />
+  <property name="hide-externals" value="true" />
+  <property name="parse-archive-in-archive" value="true" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <property name="show-poms" value="true" />
+  <property name="show-test-classes" value="false" />
+  <classpath>
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/jaxrs/target/killbill-jaxrs-0.20.14.jar" module="killbill-jaxrs" displaymodule="killbill-jaxrs" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/profiles/killbill/target/killbill-profiles-killbill-0.20.14.war" module="killbill-profiles-killbill" displaymodule="killbill-profiles-killbill" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/usage/target/killbill-usage-0.20.14.jar" module="killbill-usage" displaymodule="killbill-usage" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/invoice/target/killbill-invoice-0.20.14.jar" module="killbill-invoice" displaymodule="killbill-invoice" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/util/target/killbill-util-0.20.14.jar" module="killbill-util" displaymodule="killbill-util" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/tenant/target/killbill-tenant-0.20.14.jar" module="killbill-tenant" displaymodule="killbill-tenant" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/entitlement/target/killbill-entitlement-0.20.14.jar" module="killbill-entitlement" displaymodule="killbill-entitlement" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/junction/target/killbill-junction-0.20.14.jar" module="killbill-junction" displaymodule="killbill-junction" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/subscription/target/killbill-subscription-0.20.14.jar" module="killbill-subscription" displaymodule="killbill-subscription" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/beatrix/target/killbill-beatrix-0.20.14.jar" module="killbill-beatrix" displaymodule="killbill-beatrix" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/payment/target/killbill-payment-0.20.14.jar" module="killbill-payment" displaymodule="killbill-payment" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/profiles/killpay/target/killbill-profiles-killpay-0.20.14.war" module="killbill-profiles-killpay" displaymodule="killbill-profiles-killpay" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/overdue/target/killbill-overdue-0.20.14.jar" module="killbill-overdue" displaymodule="killbill-overdue" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/api/target/killbill-internal-api-0.20.14.jar" module="killbill-internal-api" displaymodule="killbill-internal-api" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/account/target/killbill-account-0.20.14.jar" module="killbill-account" displaymodule="killbill-account" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/catalog/target/killbill-catalog-0.20.14.jar" module="killbill-catalog" displaymodule="killbill-catalog" />
+    <classpathentry kind="lib" path="killbill-killbill-0.20.14/currency/target/killbill-currency-0.20.14.jar" module="killbill-currency" displaymodule="killbill-currency" />
+  </classpath>
+  <pom-root-files>
+    <pom path="killbill-killbill-0.20.14/pom.xml" />
+  </pom-root-files>
+  <modules>
+    <module name="killbill-internal-api" kind="jar" />
+    <module name="killbill-util" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+    </module>
+    <module name="killbill-tenant" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-currency" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-catalog" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-overdue" kind="jar">
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-account" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-tenant" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-usage" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-subscription" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-jaxrs" kind="jar">
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-overdue" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-invoice" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-usage" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-entitlement" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-subscription" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-junction" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-entitlement" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-subscription" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-payment" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-invoice" kind="jar" />
+      <requires name="killbill-junction" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-beatrix" kind="jar">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-currency" kind="jar" />
+      <requires name="killbill-entitlement" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-invoice" kind="jar" />
+      <requires name="killbill-junction" kind="jar" />
+      <requires name="killbill-overdue" kind="jar" />
+      <requires name="killbill-payment" kind="jar" />
+      <requires name="killbill-subscription" kind="jar" />
+      <requires name="killbill-tenant" kind="jar" />
+      <requires name="killbill-usage" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-profiles-killbill" kind="war">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-beatrix" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-currency" kind="jar" />
+      <requires name="killbill-entitlement" kind="jar" />
+      <requires name="killbill-internal-api" kind="jar" />
+      <requires name="killbill-invoice" kind="jar" />
+      <requires name="killbill-jaxrs" kind="jar" />
+      <requires name="killbill-junction" kind="jar" />
+      <requires name="killbill-overdue" kind="jar" />
+      <requires name="killbill-payment" kind="jar" />
+      <requires name="killbill-subscription" kind="jar" />
+      <requires name="killbill-tenant" kind="jar" />
+      <requires name="killbill-usage" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+    <module name="killbill-profiles-killpay" kind="war">
+      <requires name="killbill-account" kind="jar" />
+      <requires name="killbill-beatrix" kind="jar" />
+      <requires name="killbill-catalog" kind="jar" />
+      <requires name="killbill-currency" kind="jar" />
+      <requires name="killbill-entitlement" kind="jar" />
+      <requires name="killbill-invoice" kind="jar" />
+      <requires name="killbill-jaxrs" kind="jar" />
+      <requires name="killbill-junction" kind="jar" />
+      <requires name="killbill-overdue" kind="jar" />
+      <requires name="killbill-payment" kind="jar" />
+      <requires name="killbill-profiles-killbill" kind="war" />
+      <requires name="killbill-subscription" kind="jar" />
+      <requires name="killbill-tenant" kind="jar" />
+      <requires name="killbill-usage" kind="jar" />
+      <requires name="killbill-util" kind="jar" />
+    </module>
+  </modules>
+  <modules-in-scope />
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" />
+  </restructuring>
+  <sourcepaths>
+    <pathentry type="file" path="killbill-killbill-0.20.14\jaxrs\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\profiles\killbill\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\usage\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\invoice\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\util\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\tenant\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\entitlement\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\junction\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\subscription\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\beatrix\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\payment\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\profiles\killpay\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\overdue\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\api\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\account\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\catalog\src\main\java" />
+    <pathentry type="file" path="killbill-killbill-0.20.14\currency\src\main\java" />
+  </sourcepaths>
+  <grid-set sep="." version="5.0.15111" />
+</local-project>
