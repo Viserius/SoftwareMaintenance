@@ -164,7 +164,1162 @@
   </modules>
   <modules-in-scope />
   <restructuring>
-    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" />
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0">
+      <action type="tidy" active="true" last-applied="true" description="Tidy from killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription">
+        <composite-set>
+          <action type="wrap" active="true" last-applied="true" description="Wrap (7) items into api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+            <composite-set>
+              <action type="add-folder" active="true" last-applied="true" description="Add api to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params name="api">
+                  <parent-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </parent-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBase to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBase" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBase">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBase" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseInternalApi to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseInternalApi" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseInternalApi">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBaseInternalApi" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOnsSpecifier to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOnsSpecifier" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOnsSpecifier">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBaseWithAddOnsSpecifier" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBillingApiException to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBillingApiException" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBillingApiException">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBillingApiException" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOns to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOns" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseWithAddOns">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBaseWithAddOns" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseTransitionType to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseTransitionType" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseTransitionType">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBaseTransitionType" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseService to api in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api">
+                <params toChild="api" toChildType="folder">
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseService" type="class" path="killbill-internal-api.org.killbill.billing.subscription.api.SubscriptionBaseService">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                    <node name="SubscriptionBaseService" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription.api" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="subscription" type="package" />
+                    <node name="api" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+            </composite-set>
+            <group-move />
+          </action>
+        </composite-set>
+        <params deep="true">
+          <target-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription" type="package">
+            <node name="killbill" type="pom" />
+            <node name="killbill-internal-api" type="pom" />
+            <node name="killbill-internal-api" type="jar" />
+            <node name="org" type="package" />
+            <node name="killbill" type="package" />
+            <node name="billing" type="package" />
+            <node name="subscription" type="package" />
+          </target-fqn>
+        </params>
+      </action>
+      <action type="wrap" active="true" last-applied="true" description="Wrap (14) items into ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+        <composite-set>
+          <action type="add-folder" active="true" last-applied="true" description="Add ModuleInterfaces to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params name="ModuleInterfaces">
+              <parent-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </parent-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.beatrix to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.beatrix" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="beatrix" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.junction to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.junction" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="junction" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.payment to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.payment" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="payment" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.overdue to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.overdue" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="overdue" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.invoice to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.invoice" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="invoice" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.tenant to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.tenant" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="tenant" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.catalog to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.catalog" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="catalog" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.entitlement to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.entitlement" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.util to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.util" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="util" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.subscription" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="subscription" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.usage to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.usage" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="usage" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.jaxrs to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.jaxrs" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="jaxrs" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.account to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.account" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="account" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.currency to ModuleInterfaces in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="ModuleInterfaces" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.currency" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="currency" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+        </composite-set>
+        <group-move />
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.ModuleInterfaces to module_interfaces">
+        <params name="module_interfaces">
+          <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.ModuleInterfaces" type="folder">
+            <node name="killbill" type="pom" />
+            <node name="killbill-internal-api" type="pom" />
+            <node name="killbill-internal-api" type="jar" />
+            <node name="org" type="package" />
+            <node name="killbill" type="package" />
+            <node name="billing" type="package" />
+            <node name="ModuleInterfaces" type="folder" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.module_interfaces to modules">
+        <params name="modules">
+          <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.module_interfaces" type="folder">
+            <node name="killbill" type="pom" />
+            <node name="killbill-internal-api" type="pom" />
+            <node name="killbill-internal-api" type="jar" />
+            <node name="org" type="package" />
+            <node name="killbill" type="package" />
+            <node name="billing" type="package" />
+            <node name="module_interfaces" type="folder" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="group-smart-move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext to killbill.killbill-util.killbill-util.org.killbill.billing.util">
+        <composite-set>
+          <action type="smart-move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext to killbill.killbill-util.killbill-util.org.killbill.billing.util">
+            <composite-set>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext to killbill.killbill-util.killbill-util.org.killbill.billing.util">
+                <params>
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext" type="class" path="killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="callcontext" type="package" />
+                    <node name="InternalTenantContext" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-util.killbill-util.org.killbill.billing.util" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-util" type="pom" />
+                    <node name="killbill-util" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="util" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+            </composite-set>
+            <params>
+              <container-fqn fqn="killbill.killbill-util.killbill-util.org.killbill.billing.util" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-util" type="pom" />
+                <node name="killbill-util" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="util" type="package" />
+              </container-fqn>
+            </params>
+          </action>
+        </composite-set>
+      </action>
+      <action type="group-smart-move" active="true" last-applied="true" description="Move killbill.killbill-util.killbill-util.org.killbill.billing.util.InternalTenantContext to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext">
+        <composite-set>
+          <action type="smart-move" active="true" last-applied="true" description="Move killbill.killbill-util.killbill-util.org.killbill.billing.util.InternalTenantContext to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext">
+            <composite-set>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-util.killbill-util.org.killbill.billing.util.InternalTenantContext to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext">
+                <params>
+                  <source-fqn fqn="killbill.killbill-util.killbill-util.org.killbill.billing.util.InternalTenantContext" type="class" path="killbill-internal-api.org.killbill.billing.callcontext.InternalTenantContext">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-util" type="pom" />
+                    <node name="killbill-util" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="util" type="package" />
+                    <node name="InternalTenantContext" type="class" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="callcontext" type="package" />
+                  </to-fqn>
+                </params>
+              </action>
+            </composite-set>
+            <params>
+              <container-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="callcontext" type="package" />
+              </container-fqn>
+            </params>
+          </action>
+        </composite-set>
+      </action>
+      <action type="wrap" active="true" last-applied="true" description="Wrap (6) items into generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+        <composite-set>
+          <action type="add-folder" active="true" last-applied="true" description="Add generic to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params name="generic">
+              <parent-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </parent-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.callcontext" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="callcontext" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.entity to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.entity" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entity" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.events to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.events" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="events" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.broadcast to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.broadcast" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="broadcast" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.osgi to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.osgi" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="osgi" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.tag to generic in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing">
+            <params toChild="generic" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.tag" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="tag" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+        </composite-set>
+        <group-move />
+      </action>
+      <action type="group-smart-move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.glue to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+        <composite-set>
+          <action type="smart-move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.glue to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <composite-set>
+              <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.glue to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+                <params>
+                  <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.glue" type="package">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="glue" type="package" />
+                  </source-fqn>
+                  <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                    <node name="killbill" type="pom" />
+                    <node name="killbill-internal-api" type="pom" />
+                    <node name="killbill-internal-api" type="jar" />
+                    <node name="org" type="package" />
+                    <node name="killbill" type="package" />
+                    <node name="billing" type="package" />
+                    <node name="modules" type="folder" />
+                  </to-fqn>
+                </params>
+              </action>
+            </composite-set>
+            <params>
+              <container-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </container-fqn>
+            </params>
+          </action>
+        </composite-set>
+      </action>
+      <action type="wrap" active="true" last-applied="true" description="Wrap (14) items into components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+        <composite-set>
+          <action type="add-folder" active="true" last-applied="true" description="Add components to killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params name="components">
+              <parent-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </parent-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.beatrix to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.beatrix" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="beatrix" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.junction to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.junction" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="junction" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.payment to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.payment" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="payment" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.overdue to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.overdue" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="overdue" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.invoice to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.invoice" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="invoice" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.tenant to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.tenant" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="tenant" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.catalog to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.catalog" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="catalog" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.entitlement to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.entitlement" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="entitlement" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.util to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.util" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="util" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.jaxrs to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.jaxrs" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="jaxrs" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.account to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.account" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="account" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.usage to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.usage" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="usage" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.subscription to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.subscription" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="subscription" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.currency to components in killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules">
+            <params toChild="components" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules.currency" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+                <node name="currency" type="package" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-internal-api.killbill-internal-api.org.killbill.billing.modules" type="folder">
+                <node name="killbill" type="pom" />
+                <node name="killbill-internal-api" type="pom" />
+                <node name="killbill-internal-api" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="modules" type="folder" />
+              </to-fqn>
+            </params>
+          </action>
+        </composite-set>
+        <group-move />
+      </action>
+    </set>
   </restructuring>
   <sourcepaths>
     <pathentry type="file" path="killbill-killbill-0.20.14\jaxrs\src\main\java" />
