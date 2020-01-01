@@ -5338,6 +5338,275 @@
         </composite-set>
         <group-move />
       </action>
+      <action type="wrap" active="true" last-applied="true" description="Wrap (10) items into default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+        <composite-set>
+          <action type="add-folder" active="true" last-applied="true" description="Add default to killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params name="default">
+              <parent-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </parent-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionEvent to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionEvent" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionEvent">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultSubscriptionEvent" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionApi to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionApi" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionApi">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultSubscriptionApi" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementContext to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementContext" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementContext">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultEntitlementContext" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBlockingTransitionInternalEvent to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBlockingTransitionInternalEvent" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBlockingTransitionInternalEvent">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultBlockingTransitionInternalEvent" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundleTimeline to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundleTimeline" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundleTimeline">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultSubscriptionBundleTimeline" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlement to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlement" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlement">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultEntitlement" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundle to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundle" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscriptionBundle">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultSubscriptionBundle" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBaseEntitlementWithAddOnsSpecifier to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBaseEntitlementWithAddOnsSpecifier" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultBaseEntitlementWithAddOnsSpecifier">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultBaseEntitlementWithAddOnsSpecifier" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscription to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscription" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultSubscription">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultSubscription" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+          <action type="move" active="true" last-applied="true" description="Move killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementApi to default in killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api">
+            <params toChild="default" toChildType="folder">
+              <source-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementApi" type="class" path="killbill-entitlement.org.killbill.billing.entitlement.api.DefaultEntitlementApi">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+                <node name="DefaultEntitlementApi" type="class" />
+              </source-fqn>
+              <to-fqn fqn="killbill.killbill-entitlement.killbill-entitlement.org.killbill.billing.entitlement.api" type="package">
+                <node name="killbill" type="pom" />
+                <node name="killbill-entitlement" type="pom" />
+                <node name="killbill-entitlement" type="jar" />
+                <node name="org" type="package" />
+                <node name="killbill" type="package" />
+                <node name="billing" type="package" />
+                <node name="entitlement" type="package" />
+                <node name="api" type="package" />
+              </to-fqn>
+            </params>
+          </action>
+        </composite-set>
+        <group-move />
+      </action>
     </set>
   </restructuring>
   <sourcepaths>
