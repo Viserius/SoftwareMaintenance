@@ -1,0 +1,18 @@
+Code Smells:
+SELECT i.* FROM Issues i INNER JOIN projects c ON c.uuid = i.component_uuid
+
+Most Frequently occuring code smells:
+SELECT COUNT(*), message FROM Issues i INNER JOIN projects c ON c.uuid = i.component_uuid GROUP BY message ORDER BY count DESC
+
+Components with the most code smells:
+SELECT COUNT(*), c.long_name FROM Issues i INNER JOIN projects c ON c.uuid = i.component_uuid GROUP BY c.long_name ORDER BY count DESC
+
+Component Cognitive Complexity per class:
+SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 26 AND c.scope = 'FIL' ORDER BY value DESC
+
+The classes with the most non-comment lines of code:
+SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 3 AND scope = 'FIL' ORDER BY value DESC
+
+The classes with the most amount of duplicated lines of code:
+-> Only counts as duplicated if at least 100 tokens the same + minimum 10 lines of code same
+SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 52 AND scope = 'FIL' ORDER BY value DESC
