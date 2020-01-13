@@ -13,6 +13,10 @@ SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid
 The classes with the most non-comment lines of code:
 SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 3 AND scope = 'FIL' ORDER BY value DESC
 
-The classes with the most amount of duplicated lines of code:
+The classes with the most amount of duplicated lines of code BALANCED:
 -> Only counts as duplicated if at least 100 tokens the same + minimum 10 lines of code same
 SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 52 AND scope = 'FIL' ORDER BY value DESC
+
+The classes with the most amount of duplicated lines of code BALANCED:
+SELECT c.long_name, m.value FROM live_measures m INNER JOIN projects c ON c.uuid = m.component_uuid WHERE m.metric_id = 47 AND scope = 'FIL' ORDER BY value DESC
+
