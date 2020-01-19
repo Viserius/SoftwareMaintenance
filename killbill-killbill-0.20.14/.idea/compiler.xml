@@ -8,22 +8,43 @@
         <outputRelativeToContentRoot value="true" />
         <module name="killbill-currency" />
         <module name="killbill-profiles-killpay" />
-        <module name="killbill-account" />
-        <module name="killbill-invoice" />
+        <module name="killbill-overdue" />
         <module name="killbill-beatrix" />
         <module name="killbill-util" />
         <module name="killbill-profiles-killbill" />
         <module name="killbill-usage" />
         <module name="killbill-subscription" />
-        <module name="killbill-overdue" />
-        <module name="killbill-internal-api" />
-        <module name="killbill-entitlement" />
-        <module name="killbill-payment" />
         <module name="killbill-jaxrs" />
-        <module name="killbill-tenant" />
+        <module name="killbill-entitlement" />
         <module name="killbill-catalog" />
+        <module name="killbill-payment" />
+        <module name="killbill-account" />
+        <module name="killbill-tenant" />
+        <module name="killbill-invoice" />
+        <module name="killbill-internal-api" />
         <module name="killbill-junction" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="killbill-account" target="1.8" />
+      <module name="killbill-beatrix" target="1.8" />
+      <module name="killbill-catalog" target="1.8" />
+      <module name="killbill-currency" target="1.8" />
+      <module name="killbill-entitlement" target="1.8" />
+      <module name="killbill-internal-api" target="1.8" />
+      <module name="killbill-invoice" target="1.8" />
+      <module name="killbill-jaxrs" target="1.8" />
+      <module name="killbill-junction" target="1.8" />
+      <module name="killbill-killbill-0.20.14" target="1.8" />
+      <module name="killbill-overdue" target="1.8" />
+      <module name="killbill-payment" target="1.8" />
+      <module name="killbill-profiles" target="1.8" />
+      <module name="killbill-profiles-killbill" target="1.8" />
+      <module name="killbill-profiles-killpay" target="1.8" />
+      <module name="killbill-subscription" target="1.8" />
+      <module name="killbill-tenant" target="1.8" />
+      <module name="killbill-usage" target="1.8" />
+      <module name="killbill-util" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
