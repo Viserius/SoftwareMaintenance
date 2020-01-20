@@ -1,0 +1,1813 @@
+Column1;Column2;Column3
+Feature Concentration;Unutilized Abstraction;545
+Feature Concentration;The diamond operator (<>) should be used;113
+Broken Hierarchy;Unutilized Abstraction;110
+Broken Hierarchy;Feature Concentration;104
+Feature Concentration;Return of boolean expressions should not be wrapped into an if-then-else statement;95
+Feature Concentration;Insufficient Modularization;94
+Feature Concentration;Methods should not have too many parameters;92
+Anonymous inner classes containing only one method should become lambdas;Feature Concentration;81
+Cognitive Complexity of methods should not be too high;Feature Concentration;75
+Feature Concentration;Unnecessary imports should be removed;70
+Feature Concentration;Source files should not have any duplicated blocks;66
+Cognitive Complexity of methods should not be too high;The diamond operator (<>) should be used;53
+Return of boolean expressions should not be wrapped into an if-then-else statement;Source files should not have any duplicated blocks;52
+Feature Concentration;throws declarations should not be superfluous;51
+Anonymous inner classes containing only one method should become lambdas;The diamond operator (<>) should be used;50
+Cognitive Complexity of methods should not be too high;Methods should not have too many parameters;48
+Methods should not have too many parameters;The diamond operator (<>) should be used;47
+Cognitive Complexity of methods should not be too high;Insufficient Modularization;46
+Cognitive Complexity of methods should not be too high;Return of boolean expressions should not be wrapped into an if-then-else statement;44
+Deficient Encapsulation;Feature Concentration;44
+Insufficient Modularization;The diamond operator (<>) should be used;44
+Insufficient Modularization;Methods should not have too many parameters;43
+Anonymous inner classes containing only one method should become lambdas;Methods should not have too many parameters;37
+The diamond operator (<>) should be used;Unutilized Abstraction;34
+Insufficient Modularization;Return of boolean expressions should not be wrapped into an if-then-else statement;34
+Anonymous inner classes containing only one method should become lambdas;Insufficient Modularization;33
+Methods should not have too many parameters;Source files should not have any duplicated blocks;32
+Insufficient Modularization;Unutilized Abstraction;32
+Anonymous inner classes containing only one method should become lambdas;Cognitive Complexity of methods should not be too high;31
+Methods should not have too many parameters;throws declarations should not be superfluous;31
+The diamond operator (<>) should be used;entrySet() should be iterated when both the key and value are needed;31
+Feature Concentration;Track uses of TODO tags;29
+Unnecessary imports should be removed;Unutilized Abstraction;29
+@Deprecated code should not be used;Feature Concentration;29
+Feature Concentration;Generic exceptions should never be thrown;28
+The diamond operator (<>) should be used;throws declarations should not be superfluous;27
+The diamond operator (<>) should be used;Unnecessary imports should be removed;27
+Cognitive Complexity of methods should not be too high;Source files should not have any duplicated blocks;26
+Feature Concentration;Java 8 features should be preferred to Guava;24
+Insufficient Modularization;Source files should not have any duplicated blocks;24
+Return of boolean expressions should not be wrapped into an if-then-else statement;Unnecessary imports should be removed;24
+@Deprecated code should not be used;Methods should not have too many parameters;24
+Return of boolean expressions should not be wrapped into an if-then-else statement;The diamond operator (<>) should be used;23
+Methods should not have too many parameters;Return of boolean expressions should not be wrapped into an if-then-else statement;23
+Anonymous inner classes containing only one method should become lambdas;Unnecessary imports should be removed;22
+Anonymous inner classes containing only one method should become lambdas;throws declarations should not be superfluous;22
+The diamond operator (<>) should be used;Track uses of TODO tags;21
+Feature Concentration;entrySet() should be iterated when both the key and value are needed;21
+Feature Concentration;String literals should not be duplicated;21
+Generic exceptions should never be thrown;The diamond operator (<>) should be used;21
+Cognitive Complexity of methods should not be too high;Track uses of TODO tags;20
+Cognitive Complexity of methods should not be too high;Unnecessary imports should be removed;20
+Source files should not have any duplicated blocks;Unutilized Abstraction;20
+Catches should be combined;Feature Concentration;20
+Feature Concentration;Unused method parameters should be removed;19
+Methods should not have too many parameters;Unutilized Abstraction;19
+@Deprecated code should not be used;throws declarations should not be superfluous;18
+Cognitive Complexity of methods should not be too high;Unutilized Abstraction;17
+String literals should not be duplicated;The diamond operator (<>) should be used;17
+Catches should be combined;The diamond operator (<>) should be used;17
+Return of boolean expressions should not be wrapped into an if-then-else statement;Unutilized Abstraction;17
+The diamond operator (<>) should be used;Unused method parameters should be removed;17
+Broken Hierarchy;Methods should not have too many parameters;17
+Methods should not have too many parameters;Track uses of TODO tags;17
+Methods should not have too many parameters;Unnecessary imports should be removed;17
+Broken Hierarchy;Return of boolean expressions should not be wrapped into an if-then-else statement;17
+Cognitive Complexity of methods should not be too high;entrySet() should be iterated when both the key and value are needed;17
+Anonymous inner classes containing only one method should become lambdas;Unutilized Abstraction;17
+Feature Concentration;Local variables should not be declared and then immediately returned or thrown;16
+Feature Concentration;Unused private fields should be removed;16
+Anonymous inner classes containing only one method should become lambdas;Track uses of TODO tags;16
+Feature Concentration;Sections of code should not be commented out;16
+Java 8 features should be preferred to Guava;The diamond operator (<>) should be used;16
+Source files should not have any duplicated blocks;Unnecessary imports should be removed;15
+Insufficient Modularization;Track uses of TODO tags;15
+Source files should not have any duplicated blocks;The diamond operator (<>) should be used;15
+Anonymous inner classes containing only one method should become lambdas;Generic exceptions should never be thrown;14
+Loops should not contain more than a single break or continue statement;The diamond operator (<>) should be used;14
+Feature Concentration;Preconditions and logging arguments should not require evaluation;14
+Broken Hierarchy;Unnecessary imports should be removed;14
+Anonymous inner classes containing only one method should become lambdas;entrySet() should be iterated when both the key and value are needed;14
+Local variables should not be declared and then immediately returned or thrown;The diamond operator (<>) should be used;14
+Cognitive Complexity of methods should not be too high;throws declarations should not be superfluous;14
+Catches should be combined;Cognitive Complexity of methods should not be too high;13
+Feature Concentration;Printf-style format strings should be used correctly;13
+Anonymous inner classes containing only one method should become lambdas;Deficient Encapsulation;13
+Unutilized Abstraction;throws declarations should not be superfluous;13
+Cognitive Complexity of methods should not be too high;String literals should not be duplicated;13
+Anonymous inner classes containing only one method should become lambdas;Java 8 features should be preferred to Guava;13
+Cognitive Complexity of methods should not be too high;Generic exceptions should never be thrown;13
+Boxed Boolean should be avoided in boolean expressions;Feature Concentration;13
+Catches should be combined;Methods should not have too many parameters;13
+Insufficient Modularization;String literals should not be duplicated;13
+Preconditions and logging arguments should not require evaluation;The diamond operator (<>) should be used;13
+@Deprecated code should not be used;Anonymous inner classes containing only one method should become lambdas;13
+Cognitive Complexity of methods should not be too high;Loops should not contain more than a single break or continue statement;13
+@Deprecated code should not be used;The diamond operator (<>) should be used;13
+Feature Concentration;Utility classes should not have public constructors;13
+Methods should not have too many parameters;entrySet() should be iterated when both the key and value are needed;13
+Generic exceptions should never be thrown;Methods should not have too many parameters;13
+Insufficient Modularization;Unnecessary imports should be removed;12
+Collection.isEmpty() should be used to test for emptiness;The diamond operator (<>) should be used;12
+Deficient Encapsulation;The diamond operator (<>) should be used;12
+Methods should not have too many parameters;String literals should not be duplicated;12
+Feature Concentration;Subclasses that add fields should override equals;12
+Child class fields should not shadow parent class fields;Feature Concentration;12
+Anonymous inner classes containing only one method should become lambdas;Null pointers should not be dereferenced;11
+Broken Hierarchy;Cognitive Complexity of methods should not be too high;11
+Anonymous inner classes containing only one method should become lambdas;Unused method parameters should be removed;11
+Null pointers should not be dereferenced;The diamond operator (<>) should be used;11
+Cognitive Complexity of methods should not be too high;Deficient Encapsulation;11
+Cognitive Complexity of methods should not be too high;Null pointers should not be dereferenced;11
+Preconditions and logging arguments should not require evaluation;Printf-style format strings should be used correctly;11
+Cyclically-dependent Modularization;Feature Concentration;11
+Anonymous inner classes containing only one method should become lambdas;Return of boolean expressions should not be wrapped into an if-then-else statement;11
+Cognitive Complexity of methods should not be too high;Collapsible if statements should be merged;11
+Insufficient Modularization;entrySet() should be iterated when both the key and value are needed;11
+Feature Concentration;Null pointers should not be dereferenced;11
+Catches should be combined;Generic exceptions should never be thrown;11
+Java 8 features should be preferred to Guava;Methods should not have too many parameters;11
+Cognitive Complexity of methods should not be too high;Preconditions and logging arguments should not require evaluation;11
+Anonymous inner classes containing only one method should become lambdas;String literals should not be duplicated;11
+Methods should not have too many parameters;Preconditions and logging arguments should not require evaluation;10
+Insufficient Modularization;Java 8 features should be preferred to Guava;10
+Return of boolean expressions should not be wrapped into an if-then-else statement;Track uses of TODO tags;10
+Methods should not be empty;The diamond operator (<>) should be used;10
+Cognitive Complexity of methods should not be too high;Unused method parameters should be removed;10
+Track uses of TODO tags;throws declarations should not be superfluous;10
+Methods should not have too many parameters;Unused method parameters should be removed;10
+Feature Concentration;Methods should not be empty;10
+Anonymous inner classes containing only one method should become lambdas;Source files should not have any duplicated blocks;10
+Map.get and value test should be replaced with single method call;The diamond operator (<>) should be used;10
+Cognitive Complexity of methods should not be too high;Java 8 features should be preferred to Guava;10
+Anonymous inner classes containing only one method should become lambdas;Catches should be combined;10
+Deficient Encapsulation;Insufficient Modularization;10
+Boxed Boolean should be avoided in boolean expressions;Methods should not have too many parameters;10
+Feature Concentration;Loops should not contain more than a single break or continue statement;10
+Feature Envy;Unutilized Abstraction;10
+Anonymous inner classes containing only one method should become lambdas;Loops should not contain more than a single break or continue statement;9
+Generic exceptions should never be thrown;throws declarations should not be superfluous;9
+Deficient Encapsulation;Unnecessary imports should be removed;9
+@Deprecated code should not be used;Broken Hierarchy;9
+Cognitive Complexity of methods should not be too high;Printf-style format strings should be used correctly;9
+@Deprecated code should not be used;Source files should not have any duplicated blocks;9
+Fields in a Serializable class should either be transient or serializable;Insufficient Modularization;9
+Java 8 features should be preferred to Guava;Unutilized Abstraction;9
+Feature Concentration;Local variables should not shadow class fields;9
+Printf-style format strings should be used correctly;The diamond operator (<>) should be used;9
+Boxed Boolean should be avoided in boolean expressions;The diamond operator (<>) should be used;9
+The diamond operator (<>) should be used;Utility classes should not have public constructors;9
+Generic exceptions should never be thrown;Unutilized Abstraction;8
+Catches should be combined;entrySet() should be iterated when both the key and value are needed;8
+Source files should not have any duplicated blocks;throws declarations should not be superfluous;8
+Anonymous inner classes containing only one method should become lambdas;Boxed Boolean should be avoided in boolean expressions;8
+Collapsible if statements should be merged;The diamond operator (<>) should be used;8
+Insufficient Modularization;Loops should not contain more than a single break or continue statement;8
+Child class fields should not shadow parent class fields;The diamond operator (<>) should be used;8
+Child class fields should not shadow parent class fields;Methods should not have too many parameters;8
+Deficient Encapsulation;Unutilized Abstraction;8
+Unnecessary imports should be removed;throws declarations should not be superfluous;8
+Broken Hierarchy;The diamond operator (<>) should be used;8
+Insufficient Modularization;throws declarations should not be superfluous;8
+Collection.isEmpty() should be used to test for emptiness;Feature Concentration;8
+Local variables should not be declared and then immediately returned or thrown;Methods should not be empty;8
+Feature Concentration;Feature Envy;8
+Generic exceptions should never be thrown;Insufficient Modularization;8
+Feature Concentration;Map.get and value test should be replaced with single method call;8
+Deficient Encapsulation;Generic exceptions should never be thrown;8
+Insufficient Modularization;Null pointers should not be dereferenced;8
+Anonymous inner classes containing only one method should become lambdas;Local variables should not be declared and then immediately returned or thrown;8
+@Deprecated code should not be used;Insufficient Modularization;8
+Anonymous inner classes containing only one method should become lambdas;Unused private fields should be removed;7
+Unnecessary imports should be removed;Unused method parameters should be removed;7
+Track uses of TODO tags;entrySet() should be iterated when both the key and value are needed;7
+Broken Hierarchy;throws declarations should not be superfluous;7
+Methods should not have too many parameters;Printf-style format strings should be used correctly;7
+Feature Concentration;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;7
+@Deprecated code should not be used;Boxed Boolean should be avoided in boolean expressions;7
+Ternary operators should not be nested;The diamond operator (<>) should be used;7
+Boxed Boolean should be avoided in boolean expressions;Cognitive Complexity of methods should not be too high;7
+Modifiers should be declared in the correct order;The diamond operator (<>) should be used;7
+Methods should not have identical implementations;Return of boolean expressions should not be wrapped into an if-then-else statement;7
+Catches should be combined;Unnecessary imports should be removed;7
+Cognitive Complexity of methods should not be too high;Local variables should not be declared and then immediately returned or thrown;7
+Sections of code should not be commented out;The diamond operator (<>) should be used;7
+Subclasses that add fields should override equals;Unutilized Abstraction;7
+Deficient Encapsulation;Methods should not have too many parameters;7
+Methods should not have too many parameters;Subclasses that add fields should override equals;7
+Loops should not contain more than a single break or continue statement;Methods should not have too many parameters;7
+Catches should be combined;Java 8 features should be preferred to Guava;7
+Cognitive Complexity of methods should not be too high;Sections of code should not be commented out;7
+Catches should be combined;String literals should not be duplicated;7
+Anonymous inner classes containing only one method should become lambdas;Preconditions and logging arguments should not require evaluation;7
+Insufficient Modularization;Methods should not have identical implementations;7
+Sections of code should not be commented out;Track uses of TODO tags;7
+Catches should be combined;Deficient Encapsulation;7
+Insufficient Modularization;Preconditions and logging arguments should not require evaluation;6
+Null pointers should not be dereferenced;Unused method parameters should be removed;6
+Broken Hierarchy;Source files should not have any duplicated blocks;6
+Boxed Boolean should be avoided in boolean expressions;Insufficient Modularization;6
+Cognitive Complexity of methods should not be too high;Collection.isEmpty() should be used to test for emptiness;6
+Insufficient Modularization;Local variables should not be declared and then immediately returned or thrown;6
+Feature Concentration;Type parameter names should comply with a naming convention;6
+Generic exceptions should never be thrown;Sections of code should not be commented out;6
+Loops should not contain more than a single break or continue statement;entrySet() should be iterated when both the key and value are needed;6
+@Deprecated code should not be used;Generic exceptions should never be thrown;6
+Methods should not have too many parameters;Unused private fields should be removed;6
+Collection.isEmpty() should be used to test for emptiness;Methods should not have too many parameters;6
+Child class fields should not shadow parent class fields;throws declarations should not be superfluous;6
+Unused method parameters should be removed;throws declarations should not be superfluous;6
+Generic exceptions should never be thrown;Unnecessary imports should be removed;6
+Source files should not have any duplicated blocks;Track uses of TODO tags;6
+@Override should be used on overriding and implementing methods;Feature Concentration;6
+Java 8 features should be preferred to Guava;Preconditions and logging arguments should not require evaluation;6
+Fields in a Serializable class should either be transient or serializable;Return of boolean expressions should not be wrapped into an if-then-else statement;6
+Methods should not have too many parameters;Null pointers should not be dereferenced;6
+@Deprecated code should not be used;String literals should not be duplicated;6
+@Deprecated code should not be used;Child class fields should not shadow parent class fields;6
+Generic exceptions should never be thrown;entrySet() should be iterated when both the key and value are needed;6
+Insufficient Modularization;Sections of code should not be commented out;6
+String literals should not be duplicated;throws declarations should not be superfluous;6
+Java 8 features should be preferred to Guava;Track uses of TODO tags;6
+Cyclically-dependent Modularization;Deficient Encapsulation;6
+Generic exceptions should never be thrown;Java 8 features should be preferred to Guava;6
+Cyclically-dependent Modularization;Track uses of TODO tags;6
+Unnecessary imports should be removed;entrySet() should be iterated when both the key and value are needed;6
+Java 8 features should be preferred to Guava;Unnecessary imports should be removed;6
+@Deprecated code should not be used;Cognitive Complexity of methods should not be too high;6
+Cyclically-dependent Modularization;The diamond operator (<>) should be used;6
+Methods should not have identical implementations;Track uses of TODO tags;6
+Insufficient Modularization;Local variables should not shadow class fields;6
+Track uses of TODO tags;Unnecessary imports should be removed;6
+Insufficient Modularization;Unused method parameters should be removed;6
+Method names should comply with a naming convention;The diamond operator (<>) should be used;6
+The diamond operator (<>) should be used;Unused private fields should be removed;6
+Empty arrays and collections should be returned instead of null;Feature Concentration;6
+Methods should not be empty;Unutilized Abstraction;6
+Dead stores should be removed;The diamond operator (<>) should be used;6
+Sections of code should not be commented out;throws declarations should not be superfluous;6
+Methods should not have too many parameters;Sections of code should not be commented out;6
+Printf-style format strings should be used correctly;throws declarations should not be superfluous;5
+Source files should not have any duplicated blocks;String literals should not be duplicated;5
+Local variables should not shadow class fields;The diamond operator (<>) should be used;5
+Track uses of TODO tags;Unutilized Abstraction;5
+Feature Concentration;Method names should comply with a naming convention;5
+Collection.isEmpty() should be used to test for emptiness;Insufficient Modularization;5
+Catches should be combined;throws declarations should not be superfluous;5
+Java 8 features should be preferred to Guava;entrySet() should be iterated when both the key and value are needed;5
+Boolean literals should not be redundant;Cognitive Complexity of methods should not be too high;5
+Boxed Boolean should be avoided in boolean expressions;Child class fields should not shadow parent class fields;5
+Preconditions and logging arguments should not require evaluation;throws declarations should not be superfluous;5
+Boxed Boolean should be avoided in boolean expressions;Unnecessary imports should be removed;5
+Collapsible if statements should be merged;Methods should not have too many parameters;5
+Feature Concentration;Local variable and method parameter names should comply with a naming convention;5
+Feature Concentration;Resources should be closed;5
+Conditionally executed blocks should be reachable;Feature Concentration;5
+String literals should not be duplicated;Track uses of TODO tags;5
+Empty arrays and collections should be returned instead of null;Insufficient Modularization;5
+Anonymous inner classes containing only one method should become lambdas;Sections of code should not be commented out;5
+Deficient Encapsulation;throws declarations should not be superfluous;5
+The diamond operator (<>) should be used;Try-catch blocks should not be nested;5
+The diamond operator (<>) should be used;Unused local variables should be removed;5
+Catches should be combined;Insufficient Modularization;5
+Anonymous inner classes containing only one method should become lambdas;Method names should comply with a naming convention;5
+Boxed Boolean should be avoided in boolean expressions;String literals should not be duplicated;5
+Cyclically-dependent Modularization;String literals should not be duplicated;5
+Collapsible if statements should be merged;Feature Concentration;5
+Cognitive Complexity of methods should not be too high;Cyclically-dependent Modularization;5
+String literals should not be duplicated;entrySet() should be iterated when both the key and value are needed;5
+Type parameter names should comply with a naming convention;Unutilized Abstraction;5
+Return of boolean expressions should not be wrapped into an if-then-else statement;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;5
+Printf-style format strings should be used correctly;Unused method parameters should be removed;5
+Cognitive Complexity of methods should not be too high;Methods should not have identical implementations;5
+Collapsible if statements should be merged;entrySet() should be iterated when both the key and value are needed;5
+Broken Hierarchy;Insufficient Modularization;5
+Cognitive Complexity of methods should not be too high;Method names should comply with a naming convention;5
+Null pointers should not be dereferenced;throws declarations should not be superfluous;5
+Cognitive Complexity of methods should not be too high;Fields in a Serializable class should either be transient or serializable;5
+Preconditions and logging arguments should not require evaluation;Unutilized Abstraction;5
+Feature Concentration;Multifaceted Abstraction;5
+Feature Concentration;Modifiers should be declared in the correct order;5
+Cognitive Complexity of methods should not be too high;Two branches in a conditional structure should not have exactly the same implementation;5
+Preconditions and logging arguments should not require evaluation;Unnecessary imports should be removed;5
+Cognitive Complexity of methods should not be too high;Utility classes should not have public constructors;5
+Child class fields should not shadow parent class fields;Cognitive Complexity of methods should not be too high;5
+Anonymous inner classes containing only one method should become lambdas;Local variable and method parameter names should comply with a naming convention;5
+Conditionally executed blocks should be reachable;The diamond operator (<>) should be used;5
+Fields in a Serializable class should either be transient or serializable;The diamond operator (<>) should be used;5
+Local variables should not be declared and then immediately returned or thrown;Modifiers should be declared in the correct order;5
+Anonymous inner classes containing only one method should become lambdas;Printf-style format strings should be used correctly;5
+Child class fields should not shadow parent class fields;Generic exceptions should never be thrown;5
+Exceptions should be either logged or rethrown but not both;The diamond operator (<>) should be used;5
+Methods should not be empty;Modifiers should be declared in the correct order;5
+Cyclically-dependent Modularization;throws declarations should not be superfluous;5
+Java 8 features should be preferred to Guava;Printf-style format strings should be used correctly;5
+Dead stores should be removed;Insufficient Modularization;5
+Method names should comply with a naming convention;Preconditions and logging arguments should not require evaluation;5
+Local variables should not shadow class fields;Return of boolean expressions should not be wrapped into an if-then-else statement;5
+Local variables should not be declared and then immediately returned or thrown;Methods should not have too many parameters;5
+Feature Concentration;Nested blocks of code should not be left empty;5
+Unused private fields should be removed;Unutilized Abstraction;5
+Preconditions and logging arguments should not require evaluation;Unused method parameters should be removed;5
+Local variables should not be declared and then immediately returned or thrown;Unutilized Abstraction;5
+Cognitive Complexity of methods should not be too high;Map.get and value test should be replaced with single method call;4
+String literals should not be duplicated;Unnecessary imports should be removed;4
+Dead stores should be removed;Unused local variables should be removed;4
+Child class fields should not shadow parent class fields;String literals should not be duplicated;4
+Unutilized Abstraction;entrySet() should be iterated when both the key and value are needed;4
+Boolean expressions should not be gratuitous;Cognitive Complexity of methods should not be too high;4
+Cognitive Complexity of methods should not be too high;Exceptions should be either logged or rethrown but not both;4
+Methods should not be empty;Unnecessary imports should be removed;4
+Method names should comply with a naming convention;Methods should not have too many parameters;4
+Insufficient Modularization;Unused private fields should be removed;4
+@Deprecated code should not be used;Track uses of TODO tags;4
+Fields in a Serializable class should either be transient or serializable;Methods should not have identical implementations;4
+Nested blocks of code should not be left empty;The diamond operator (<>) should be used;4
+Insufficient Modularization;Printf-style format strings should be used correctly;4
+Null pointers should not be dereferenced;Unnecessary imports should be removed;4
+Collection.isEmpty() should be used to test for emptiness;Unused method parameters should be removed;4
+Deficient Encapsulation;Utility classes should not have public constructors;4
+Cognitive Complexity of methods should not be too high;Nested blocks of code should not be left empty;4
+Catches should be combined;Unutilized Abstraction;4
+@Override should be used on overriding and implementing methods;Anonymous inner classes containing only one method should become lambdas;4
+Deficient Encapsulation;Unused private fields should be removed;4
+Method names should comply with a naming convention;Printf-style format strings should be used correctly;4
+Boolean literals should not be redundant;entrySet() should be iterated when both the key and value are needed;4
+Preconditions and logging arguments should not require evaluation;String literals should not be duplicated;4
+Preconditions and logging arguments should not require evaluation;entrySet() should be iterated when both the key and value are needed;4
+Generic exceptions should never be thrown;Track uses of TODO tags;4
+Local variables should not shadow class fields;Methods should not have too many parameters;4
+Empty arrays and collections should be returned instead of null;The diamond operator (<>) should be used;4
+Anonymous inner classes containing only one method should become lambdas;Dead stores should be removed;4
+Anonymous inner classes containing only one method should become lambdas;Child class fields should not shadow parent class fields;4
+Map.get and value test should be replaced with single method call;Methods should not have too many parameters;4
+Track uses of TODO tags;Unused method parameters should be removed;4
+Feature Concentration;Methods should not have identical implementations;4
+Broken Hierarchy;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;4
+Dead stores should be removed;Feature Concentration;4
+Java 8 features should be preferred to Guava;throws declarations should not be superfluous;4
+Deficient Encapsulation;Track uses of TODO tags;4
+Collapsible if statements should be merged;Insufficient Modularization;4
+Anonymous inner classes containing only one method should become lambdas;Conditionally executed blocks should be reachable;4
+Methods should not have too many parameters;Try-catch blocks should not be nested;4
+Feature Concentration;Try-catch blocks should not be nested;4
+Methods should not be empty;Return of boolean expressions should not be wrapped into an if-then-else statement;4
+Boolean literals should not be redundant;Feature Concentration;4
+Child class fields should not shadow parent class fields;Insufficient Modularization;4
+Source files should not have any duplicated blocks;entrySet() should be iterated when both the key and value are needed;4
+Feature Concentration;Wide Hierarchy;4
+Cyclically-dependent Modularization;Methods should not have too many parameters;4
+Anonymous inner classes containing only one method should become lambdas;Empty arrays and collections should be returned instead of null;4
+Printf-style format strings should be used correctly;Unnecessary imports should be removed;4
+Sections of code should not be commented out;Unutilized Abstraction;4
+Boolean literals should not be redundant;Methods should not have too many parameters;4
+Boxed Boolean should be avoided in boolean expressions;throws declarations should not be superfluous;4
+Map.get and value test should be replaced with single method call;Unutilized Abstraction;4
+entrySet() should be iterated when both the key and value are needed;throws declarations should not be superfluous;4
+Boolean literals should not be redundant;The diamond operator (<>) should be used;4
+Cognitive Complexity of methods should not be too high;Local variable and method parameter names should comply with a naming convention;4
+Collection.isEmpty() should be used to test for emptiness;entrySet() should be iterated when both the key and value are needed;4
+Cyclically-dependent Modularization;Unnecessary imports should be removed;4
+Anonymous inner classes containing only one method should become lambdas;Unused local variables should be removed;4
+Catches should be combined;Track uses of TODO tags;4
+Java 8 features should be preferred to Guava;Unused method parameters should be removed;4
+Abstract classes without fields should be converted to interfaces;Feature Concentration;4
+Conditionally executed blocks should be reachable;Methods should not have too many parameters;4
+@Override should be used on overriding and implementing methods;The diamond operator (<>) should be used;4
+Insufficient Modularization;Subclasses that add fields should override equals;4
+Local variable and method parameter names should comply with a naming convention;The diamond operator (<>) should be used;4
+Collapsible if statements should be merged;Generic exceptions should never be thrown;4
+Null pointers should not be dereferenced;Return of boolean expressions should not be wrapped into an if-then-else statement;4
+Anonymous inner classes containing only one method should become lambdas;Cyclically-dependent Modularization;4
+Return of boolean expressions should not be wrapped into an if-then-else statement;Sections of code should not be commented out;4
+Map.get and value test should be replaced with single method call;entrySet() should be iterated when both the key and value are needed;4
+Deficient Encapsulation;String literals should not be duplicated;4
+Classes from sun.* packages should not be used;Feature Concentration;4
+Cognitive Complexity of methods should not be too high;Local variables should not shadow class fields;4
+Constants should not be defined in interfaces;Feature Concentration;4
+Feature Concentration;InterruptedException should not be ignored;4
+Cyclically-dependent Modularization;Insufficient Modularization;4
+Anonymous inner classes containing only one method should become lambdas;Collection.isEmpty() should be used to test for emptiness;4
+Conditionally executed blocks should be reachable;Insufficient Modularization;4
+Catches should be combined;Loops should not contain more than a single break or continue statement;4
+Boxed Boolean should be avoided in boolean expressions;Source files should not have any duplicated blocks;4
+Boolean literals should not be redundant;Preconditions and logging arguments should not require evaluation;4
+Unused method parameters should be removed;Unutilized Abstraction;3
+Local variables should not be declared and then immediately returned or thrown;Loops should not contain more than a single break or continue statement;3
+Cognitive Complexity of methods should not be too high;switch statements should have default clauses;3
+Methods should not have too many parameters;Two branches in a conditional structure should not have exactly the same implementation;3
+Boxed Boolean should be avoided in boolean expressions;Loops should not contain more than a single break or continue statement;3
+String literals should not be duplicated;Unused private fields should be removed;3
+Maps with keys that are enum values should be replaced with EnumMap;The diamond operator (<>) should be used;3
+Anonymous inner classes containing only one method should become lambdas;Strings and Boxed types should be compared using equals();3
+Arrays should not be copied using loops;Return of boolean expressions should not be wrapped into an if-then-else statement;3
+Catches should be combined;Collapsible if statements should be merged;3
+Catches should be combined;Local variables should not shadow class fields;3
+Abstract methods should not be redundant;Unutilized Abstraction;3
+Abstract classes without fields should be converted to interfaces;Utility classes should not have public constructors;3
+Source files should not have any duplicated blocks;Subclasses that add fields should override equals;3
+String literals should not be duplicated;Unused method parameters should be removed;3
+@Deprecated code should not be used;InterruptedException should not be ignored;3
+Feature Concentration;static base class members should not be accessed via derived types;3
+Local variables should not be declared and then immediately returned or thrown;Preconditions and logging arguments should not require evaluation;3
+An iteration on a Collection should be performed on the type handled by the Collection;The diamond operator (<>) should be used;3
+The diamond operator (<>) should be used;switch statements should have at least 3 case clauses;3
+Java 8 features should be preferred to Guava;Local variables should not be declared and then immediately returned or thrown;3
+Local variables should not shadow class fields;Track uses of TODO tags;3
+Broken Hierarchy;Sections of code should not be commented out;3
+Null pointers should not be dereferenced;Unused private fields should be removed;3
+Unnecessary imports should be removed;Unused private fields should be removed;3
+The diamond operator (<>) should be used;switch statements should have default clauses;3
+Anonymous inner classes containing only one method should become lambdas;switch statements should have at least 3 case clauses;3
+Printf-style format strings should be used correctly;Sections of code should not be commented out;3
+Deprecated code should be removed;Feature Concentration;3
+Anonymous inner classes containing only one method should become lambdas;Boolean literals should not be redundant;3
+An iteration on a Collection should be performed on the type handled by the Collection;Feature Concentration;3
+Loops should not contain more than a single break or continue statement;Unutilized Abstraction;3
+Resources should be closed;Unutilized Abstraction;3
+Anonymous inner classes containing only one method should become lambdas;Map.get and value test should be replaced with single method call;3
+Method names should comply with a naming convention;Unnecessary imports should be removed;3
+Deprecated code should be removed;Deprecated elements should have both the annotation and the Javadoc tag;3
+Generic exceptions should never be thrown;Source files should not have any duplicated blocks;3
+Printf-style format strings should be used correctly;Unutilized Abstraction;3
+Local variables should not shadow class fields;Source files should not have any duplicated blocks;3
+Collapsible if statements should be merged;Track uses of TODO tags;3
+Null pointers should not be dereferenced;Preconditions and logging arguments should not require evaluation;3
+Feature Concentration;switch statements should have at least 3 case clauses;3
+Unused local variables should be removed;entrySet() should be iterated when both the key and value are needed;3
+Generic exceptions should never be thrown;Local variables should not shadow class fields;3
+Deficient Encapsulation;entrySet() should be iterated when both the key and value are needed;3
+Null pointers should not be dereferenced;Unutilized Abstraction;3
+@Deprecated code should not be used;Deprecated code should be removed;3
+Preconditions and logging arguments should not require evaluation;Sections of code should not be commented out;3
+Map.get and value test should be replaced with single method call;Null pointers should not be dereferenced;3
+Collection.isEmpty() should be used to test for emptiness;Cyclically-dependent Modularization;3
+The diamond operator (<>) should be used;Type parameter names should comply with a naming convention;3
+Feature Concentration;switch statements should have default clauses;3
+Deficient Encapsulation;Source files should not have any duplicated blocks;3
+Boxed Boolean should be avoided in boolean expressions;Generic exceptions should never be thrown;3
+Unused private fields should be removed;throws declarations should not be superfluous;3
+Collection.isEmpty() should be used to test for emptiness;Unutilized Abstraction;3
+Boxed Boolean should be avoided in boolean expressions;Return of boolean expressions should not be wrapped into an if-then-else statement;3
+Conditionally executed blocks should be reachable;String literals should not be duplicated;3
+Dead stores should be removed;Loops should not contain more than a single break or continue statement;3
+Boolean literals should not be redundant;Java 8 features should be preferred to Guava;3
+Exceptions should be either logged or rethrown but not both;Unnecessary imports should be removed;3
+Local variables should not be declared and then immediately returned or thrown;Unnecessary imports should be removed;3
+Insufficient Modularization;Wide Hierarchy;3
+Methods should not have identical implementations;Methods should not have too many parameters;3
+Collapsible if statements should be merged;Null pointers should not be dereferenced;3
+Feature Concentration;Strings and Boxed types should be compared using equals();3
+Strings and Boxed types should be compared using equals();The diamond operator (<>) should be used;3
+Feature Concentration;Unused local variables should be removed;3
+Feature Concentration;Null checks should not be used with instanceof;3
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Deficient Encapsulation;3
+Catches should be combined;Preconditions and logging arguments should not require evaluation;3
+@Override should be used on overriding and implementing methods;Cognitive Complexity of methods should not be too high;3
+Anonymous inner classes containing only one method should become lambdas;Ternary operators should not be nested;3
+Unutilized Abstraction;Utility classes should not have public constructors;3
+Anonymous inner classes containing only one method should become lambdas;Local variables should not shadow class fields;3
+@Deprecated code should not be used;entrySet() should be iterated when both the key and value are needed;3
+Catches should be combined;Unused method parameters should be removed;3
+The diamond operator (<>) should be used;Two branches in a conditional structure should not have exactly the same implementation;3
+Unutilized Abstraction;Using command line arguments is security-sensitive;3
+Boxed Boolean should be avoided in boolean expressions;entrySet() should be iterated when both the key and value are needed;3
+Deficient Encapsulation;Methods should not be empty;3
+Subclasses that add fields should override equals;The diamond operator (<>) should be used;3
+Insufficient Modularization;Unused local variables should be removed;3
+Abstract classes without fields should be converted to interfaces;The diamond operator (<>) should be used;3
+Boolean expressions should not be gratuitous;Methods should not have too many parameters;3
+@Deprecated code should not be used;Conditionally executed blocks should be reachable;3
+Anonymous inner classes containing only one method should become lambdas;Collapsible if statements should be merged;3
+Generic exceptions should never be thrown;Two branches in a conditional structure should not have exactly the same implementation;3
+Loops should not contain more than a single break or continue statement;Two branches in a conditional structure should not have exactly the same implementation;3
+Collapsible if statements should be merged;Unutilized Abstraction;3
+Deficient Encapsulation;Multifaceted Abstraction;3
+InterruptedException should not be ignored;Methods should not have too many parameters;3
+Feature Concentration;Field names should comply with a naming convention;3
+Return of boolean expressions should not be wrapped into an if-then-else statement;throws declarations should not be superfluous;3
+Local variable and method parameter names should comply with a naming convention;Methods should not have too many parameters;3
+Cyclically-dependent Modularization;Unused private fields should be removed;3
+Java 8 features should be preferred to Guava;Return of boolean expressions should not be wrapped into an if-then-else statement;3
+@Override should be used on overriding and implementing methods;Unutilized Abstraction;3
+Sections of code should not be commented out;entrySet() should be iterated when both the key and value are needed;3
+Insufficient Modularization;Map.get and value test should be replaced with single method call;3
+Boolean expressions should not be gratuitous;The diamond operator (<>) should be used;3
+Generic exceptions should never be thrown;Null pointers should not be dereferenced;3
+Null pointers should not be dereferenced;entrySet() should be iterated when both the key and value are needed;3
+Catches should be combined;Changing or bypassing accessibility is security-sensitive;3
+Deprecated code should be removed;Insufficient Modularization;3
+Feature Concentration;Loggers should be named for their enclosing classes;3
+Preconditions and logging arguments should not require evaluation;Track uses of TODO tags;3
+Loops should not contain more than a single break or continue statement;Unnecessary imports should be removed;3
+Boolean literals should not be redundant;Track uses of TODO tags;3
+Deficient Encapsulation;Unused method parameters should be removed;3
+Standard outputs should not be used directly to log anything;Unutilized Abstraction;3
+Cyclically-dependent Modularization;static base class members should not be accessed via derived types;3
+Cognitive Complexity of methods should not be too high;Try-catch blocks should not be nested;3
+Exceptions should be either logged or rethrown but not both;Feature Concentration;3
+Feature Concentration;Inheritance tree of classes should not be too deep;3
+Conditionally executed blocks should be reachable;throws declarations should not be superfluous;3
+Local variable and method parameter names should comply with a naming convention;Method names should comply with a naming convention;3
+Java 8 features should be preferred to Guava;String literals should not be duplicated;3
+Anonymous inner classes containing only one method should become lambdas;Resources should be closed;3
+Child class fields should not shadow parent class fields;Unnecessary imports should be removed;3
+Catches should be combined;Two branches in a conditional structure should not have exactly the same implementation;3
+Cognitive Complexity of methods should not be too high;Conditionally executed blocks should be reachable;3
+Changing or bypassing accessibility is security-sensitive;The diamond operator (<>) should be used;3
+Unused method parameters should be removed;entrySet() should be iterated when both the key and value are needed;3
+Standard outputs should not be used directly to log anything;Using command line arguments is security-sensitive;3
+Feature Concentration;Ternary operators should not be nested;3
+Cognitive Complexity of methods should not be too high;Dead stores should be removed;3
+Catches should be combined;Dead stores should be removed;3
+Map.get and value test should be replaced with single method call;Unnecessary imports should be removed;3
+Cognitive Complexity of methods should not be too high;Empty arrays and collections should be returned instead of null;3
+Methods should not have too many parameters;Ternary operators should not be nested;3
+Loops should not contain more than a single break or continue statement;Track uses of TODO tags;3
+The diamond operator (<>) should be used;static base class members should not be accessed via derived types;3
+Printf-style format strings should be used correctly;String literals should not be duplicated;3
+InterruptedException should not be ignored;The diamond operator (<>) should be used;3
+Methods should not have too many parameters;Nested blocks of code should not be left empty;3
+Broken Hierarchy;Generic exceptions should never be thrown;3
+Cognitive Complexity of methods should not be too high;Ternary operators should not be nested;3
+Catches should be combined;Sections of code should not be commented out;3
+Feature Concentration;Two branches in a conditional structure should not have exactly the same implementation;3
+Unnecessary imports should be removed;Utility classes should not have public constructors;3
+Boolean literals should not be redundant;Insufficient Modularization;3
+Collapsible if statements should be merged;Deficient Encapsulation;3
+Cognitive Complexity of methods should not be too high;Unused private fields should be removed;3
+Java 8 features should be preferred to Guava;Map.get and value test should be replaced with single method call;3
+Cognitive Complexity of methods should not be too high;Deprecated code should be removed;3
+Loggers should be named for their enclosing classes;The diamond operator (<>) should be used;2
+Local variables should not be declared and then immediately returned or thrown;Null pointers should not be dereferenced;2
+Method names should comply with a naming convention;Unused private fields should be removed;2
+Anonymous inner classes containing only one method should become lambdas;Type parameter names should comply with a naming convention;2
+Collection.isEmpty() should be used to test for emptiness;Unnecessary imports should be removed;2
+Cognitive Complexity of methods should not be too high;Methods should not be empty;2
+Track uses of TODO tags;Wide Hierarchy;2
+Empty arrays and collections should be returned instead of null;Methods should not have too many parameters;2
+Method names should comply with a naming convention;Null pointers should not be dereferenced;2
+Abstract methods should not be redundant;Feature Concentration;2
+Local variables should not be declared and then immediately returned or thrown;Unused private fields should be removed;2
+Methods should not be empty;Methods should not have too many parameters;2
+Broken Hierarchy;entrySet() should be iterated when both the key and value are needed;2
+@Deprecated code should not be used;Unnecessary imports should be removed;2
+Map.get and value test should be replaced with single method call;Try-catch blocks should not be nested;2
+@Deprecated code should not be used;Unused private fields should be removed;2
+Abstract methods should not be redundant;Anonymous inner classes containing only one method should become lambdas;2
+Maps with keys that are enum values should be replaced with EnumMap;Track uses of TODO tags;2
+Changing or bypassing accessibility is security-sensitive;Cognitive Complexity of methods should not be too high;2
+Null pointers should not be dereferenced;Track uses of TODO tags;2
+Try-catch blocks should not be nested;throws declarations should not be superfluous;2
+Insufficient Modularization;Method names should comply with a naming convention;2
+Constants should not be defined in interfaces;Deficient Encapsulation;2
+Dead stores should be removed;String literals should not be duplicated;2
+Return of boolean expressions should not be wrapped into an if-then-else statement;Unused method parameters should be removed;2
+Changing or bypassing accessibility is security-sensitive;throws declarations should not be superfluous;2
+Collapsible if statements should be merged;Local variables should not be declared and then immediately returned or thrown;2
+Loggers should be named for their enclosing classes;Unutilized Abstraction;2
+Generic exceptions should never be thrown;ThreadLocal variables should be cleaned up when no longer used;2
+Loops should not contain more than a single break or continue statement;Sections of code should not be commented out;2
+Boolean expressions should not be gratuitous;Collapsible if statements should be merged;2
+Unnecessary imports should be removed;switch statements should have default clauses;2
+Empty arrays and collections should be returned instead of null;Unused method parameters should be removed;2
+Feature Envy;Insufficient Modularization;2
+Resources should be closed;throws declarations should not be superfluous;2
+Boolean literals should not be redundant;Method names should comply with a naming convention;2
+Java 8 features should be preferred to Guava;Utility classes should not have public constructors;2
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Unnecessary imports should be removed;2
+Cognitive Complexity of methods should not be too high;InterruptedException should not be ignored;2
+Boxed Boolean should be avoided in boolean expressions;Local variables should not be declared and then immediately returned or thrown;2
+Conditionally executed blocks should be reachable;Ternary operators should not be nested;2
+Feature Concentration;Non-primitive fields should not be volatile;2
+Boolean literals should not be redundant;Printf-style format strings should be used correctly;2
+Try-catch blocks should not be nested;entrySet() should be iterated when both the key and value are needed;2
+Arrays should not be copied using loops;Feature Concentration;2
+Catches should be combined;Cyclically-dependent Modularization;2
+Cyclically-dependent Modularization;entrySet() should be iterated when both the key and value are needed;2
+Unnecessary Abstraction;Unutilized Abstraction;2
+Deficient Encapsulation;Empty statements should be removed;2
+Boxed Boolean should be avoided in boolean expressions;InterruptedException should not be ignored;2
+Resources should be closed;The diamond operator (<>) should be used;2
+Cyclically-dependent Modularization;Empty statements should be removed;2
+Classes from sun.* packages should not be used;Source files should not have any duplicated blocks;2
+Field names should comply with a naming convention;The diamond operator (<>) should be used;2
+Java 8 features should be preferred to Guava;Resources should be closed;2
+Collection.isEmpty() should be used to test for emptiness;Preconditions and logging arguments should not require evaluation;2
+Cognitive Complexity of methods should not be too high;Deprecated elements should have both the annotation and the Javadoc tag;2
+Arrays should not be copied using loops;The diamond operator (<>) should be used;2
+Two branches in a conditional structure should not have exactly the same implementation;throws declarations should not be superfluous;2
+Child class fields should not shadow parent class fields;Track uses of TODO tags;2
+Insufficient Modularization;Jump statements should not be redundant;2
+Generic exceptions should never be thrown;String literals should not be duplicated;2
+Arrays should not be copied using loops;Methods should not have too many parameters;2
+Printf-style format strings should be used correctly;entrySet() should be iterated when both the key and value are needed;2
+Private fields only used as local variables in methods should become local variables;Unutilized Abstraction;2
+Cyclically-dependent Modularization;Method names should comply with a naming convention;2
+Cyclically-dependent Modularization;Ternary operators should not be nested;2
+Catches should be combined;Printf-style format strings should be used correctly;2
+Unused local variables should be removed;Unused method parameters should be removed;2
+Collection.isEmpty() should be used to test for emptiness;Null pointers should not be dereferenced;2
+Deprecated code should be removed;Source files should not have any duplicated blocks;2
+Cognitive Complexity of methods should not be too high;Unused local variables should be removed;2
+Field names should comply with a naming convention;Track uses of TODO tags;2
+Printf-style format strings should be used correctly;Try-catch blocks should not be nested;2
+Unnecessary imports should be removed;Unused local variables should be removed;2
+Catches should be combined;Local variables should not be declared and then immediately returned or thrown;2
+Generic exceptions should never be thrown;Modifiers should be declared in the correct order;2
+Insufficient Modularization;Ternary operators should not be nested;2
+Catches should be combined;Subclasses that add fields should override equals;2
+Collapsible if statements should be merged;Collection.isEmpty() should be used to test for emptiness;2
+Feature Concentration;Fields in a Serializable class should either be transient or serializable;2
+Boxed Boolean should be avoided in boolean expressions;Cyclically-dependent Modularization;2
+Insufficient Modularization;InterruptedException should not be ignored;2
+Anonymous inner classes containing only one method should become lambdas;switch statements should have default clauses;2
+String literals should not be duplicated;switch statements should have default clauses;2
+Fields in a Serializable class should either be transient or serializable;Sections of code should not be commented out;2
+Deprecated code should be removed;Methods should not have too many parameters;2
+Cyclically-dependent Modularization;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Child class fields should not shadow parent class fields;Source files should not have any duplicated blocks;2
+Assignments should not be redundant;Deficient Encapsulation;2
+Nested blocks of code should not be left empty;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Arrays should not be copied using loops;Insufficient Modularization;2
+Feature Concentration;Generic wildcard types should not be used in return parameters;2
+Inheritance tree of classes should not be too deep;The diamond operator (<>) should be used;2
+Assignments should not be redundant;Generic exceptions should never be thrown;2
+Java 8 features should be preferred to Guava;Null pointers should not be dereferenced;2
+Methods should not be empty;entrySet() should be iterated when both the key and value are needed;2
+Anonymous inner classes containing only one method should become lambdas;Subclasses that add fields should override equals;2
+Anonymous inner classes containing only one method should become lambdas;Two branches in a conditional structure should not have exactly the same implementation;2
+Java 8 features should be preferred to Guava;Source files should not have any duplicated blocks;2
+Java 8 features should be preferred to Guava;Unused local variables should be removed;2
+Methods should not have identical implementations;Source files should not have any duplicated blocks;2
+Cognitive Complexity of methods should not be too high;Jump statements should not be redundant;2
+Methods should not be empty;static base class members should not be accessed via derived types;2
+Local variable and method parameter names should comply with a naming convention;Printf-style format strings should be used correctly;2
+Broken Hierarchy;Subclasses that add fields should override equals;2
+Boolean literals should not be redundant;String literals should not be duplicated;2
+Source files should not have any duplicated blocks;Unused private fields should be removed;2
+Generic exceptions should never be thrown;Loops should not contain more than a single break or continue statement;2
+Cognitive Complexity of methods should not be too high;Field names should comply with a naming convention;2
+Catches should be combined;Exceptions should be either logged or rethrown but not both;2
+ThreadLocal variables should be cleaned up when no longer used;ThreadLocal.withInitial should be preferred;2
+Resources should be closed;Track uses of TODO tags;2
+Anonymous inner classes containing only one method should become lambdas;Utility classes should not have public constructors;2
+Dead stores should be removed;Unnecessary imports should be removed;2
+Conditionally executed blocks should be reachable;Generic exceptions should never be thrown;2
+Printf-style format strings should be used correctly;Track uses of TODO tags;2
+Exceptions should be either logged or rethrown but not both;throws declarations should not be superfluous;2
+Methods should not have identical implementations;The diamond operator (<>) should be used;2
+Insufficient Modularization;static base class members should not be accessed via derived types;2
+Arrays should not be copied using loops;Track uses of TODO tags;2
+Method names should comply with a naming convention;String literals should not be duplicated;2
+Map.get and value test should be replaced with single method call;Unused method parameters should be removed;2
+Anonymous inner classes containing only one method should become lambdas;Wide Hierarchy;2
+Dead stores should be removed;Nested blocks of code should not be left empty;2
+Cognitive Complexity of methods should not be too high;Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;2
+Catches should be combined;Collection.isEmpty() should be used to test for emptiness;2
+Boolean expressions should not be gratuitous;Insufficient Modularization;2
+Collection.isEmpty() should be used to test for emptiness;Generic exceptions should never be thrown;2
+Abstract classes without fields should be converted to interfaces;Unutilized Abstraction;2
+String literals should not be duplicated;Unused local variables should be removed;2
+Map.get and value test should be replaced with single method call;Preconditions and logging arguments should not require evaluation;2
+Insufficient Modularization;Nested blocks of code should not be left empty;2
+Loops should not contain more than a single break or continue statement;Nested blocks of code should not be left empty;2
+Methods should not have too many parameters;Resources should be closed;2
+Boxed Boolean should be avoided in boolean expressions;Deficient Encapsulation;2
+Collapsible if statements should be merged;Unused method parameters should be removed;2
+Catches should be combined;Source files should not have any duplicated blocks;2
+Dead stores should be removed;entrySet() should be iterated when both the key and value are needed;2
+Modifiers should be declared in the correct order;Unutilized Abstraction;2
+Collapsible if statements should be merged;Preconditions and logging arguments should not require evaluation;2
+Fields in a Serializable class should either be transient or serializable;String literals should not be duplicated;2
+Null pointers should not be dereferenced;Source files should not have any duplicated blocks;2
+Local variables should not be declared and then immediately returned or thrown;entrySet() should be iterated when both the key and value are needed;2
+@Override should be used on overriding and implementing methods;Generic exceptions should never be thrown;2
+@Deprecated code should not be used;Classes from sun.* packages should not be used;2
+Generic exceptions should never be thrown;ThreadLocal.withInitial should be preferred;2
+Generic exceptions should never be thrown;Ternary operators should not be nested;2
+Catches should be combined;Unused local variables should be removed;2
+Dead stores should be removed;Java 8 features should be preferred to Guava;2
+Catches should be combined;Null pointers should not be dereferenced;2
+Preconditions and logging arguments should not require evaluation;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Catches should be combined;Try-catch blocks should not be nested;2
+Feature Concentration;Private fields only used as local variables in methods should become local variables;2
+Method names should comply with a naming convention;throws declarations should not be superfluous;2
+Generic exceptions should never be thrown;Utility classes should not have public constructors;2
+Multifaceted Abstraction;Unutilized Abstraction;2
+Null checks should not be used with instanceof;entrySet() should be iterated when both the key and value are needed;2
+Return of boolean expressions should not be wrapped into an if-then-else statement;Using regular expressions is security-sensitive;2
+Method names should comply with a naming convention;entrySet() should be iterated when both the key and value are needed;2
+Feature Concentration;Unused private methods should be removed;2
+Boolean literals should not be redundant;Boxed Boolean should be avoided in boolean expressions;2
+Cognitive Complexity of methods should not be too high;Generic wildcard types should not be used in return parameters;2
+Exceptions should be either logged or rethrown but not both;String literals should not be duplicated;2
+Methods should not have too many parameters;Unused local variables should be removed;2
+Cognitive Complexity of methods should not be too high;Resources should be closed;2
+Child class fields should not shadow parent class fields;Java 8 features should be preferred to Guava;2
+Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;Unnecessary imports should be removed;2
+Strings and Boxed types should be compared using equals();Unutilized Abstraction;2
+Collection.isEmpty() should be used to test for emptiness;throws declarations should not be superfluous;2
+String literals should not be duplicated;URIs should not be hardcoded;2
+Local variable and method parameter names should comply with a naming convention;Unnecessary imports should be removed;2
+Null checks should not be used with instanceof;throws declarations should not be superfluous;2
+Anonymous inner classes containing only one method should become lambdas;Constant names should comply with a naming convention;2
+Unutilized Abstraction;static base class members should not be accessed via derived types;2
+Cognitive Complexity of methods should not be too high;Using regular expressions is security-sensitive;2
+Insufficient Modularization;Multifaceted Abstraction;2
+Return of boolean expressions should not be wrapped into an if-then-else statement;equals(Object obj) and hashCode() should be overridden in pairs;2
+Catches should be combined;Child class fields should not shadow parent class fields;2
+Ternary operators should not be nested;entrySet() should be iterated when both the key and value are needed;2
+Local variables should not be declared and then immediately returned or thrown;throws declarations should not be superfluous;2
+Preconditions and logging arguments should not require evaluation;switch statements should have default clauses;2
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Feature Concentration;2
+@Deprecated code should not be used;Ternary operators should not be nested;2
+Boolean expressions should not be gratuitous;Generic exceptions should never be thrown;2
+Changing or bypassing accessibility is security-sensitive;Generic exceptions should never be thrown;2
+Java 8 features should be preferred to Guava;Methods should not be empty;2
+Boxed Boolean should be avoided in boolean expressions;Broken Hierarchy;2
+Exceptions should be either logged or rethrown but not both;entrySet() should be iterated when both the key and value are needed;2
+Deficient Encapsulation;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Methods should not have too many parameters;switch statements should have default clauses;2
+InterruptedException should not be ignored;Nested blocks of code should not be left empty;2
+Jump statements should not be redundant;Null pointers should not be dereferenced;2
+Subclasses that add fields should override equals;Unnecessary imports should be removed;2
+Anonymous inner classes containing only one method should become lambdas;Field names should comply with a naming convention;2
+Collection.isEmpty() should be used to test for emptiness;String literals should not be duplicated;2
+Boxed Boolean should be avoided in boolean expressions;Unutilized Abstraction;2
+Empty arrays and collections should be returned instead of null;throws declarations should not be superfluous;2
+Anonymous inner classes containing only one method should become lambdas;Inheritance tree of classes should not be too deep;2
+Boolean literals should not be redundant;Unnecessary imports should be removed;2
+Insufficient Modularization;switch statements should have default clauses;2
+Deprecated elements should have both the annotation and the Javadoc tag;Insufficient Modularization;2
+Boxed Boolean should be avoided in boolean expressions;Ternary operators should not be nested;2
+Resources should be closed;Using command line arguments is security-sensitive;2
+Broken Hierarchy;Child class fields should not shadow parent class fields;2
+Insufficient Modularization;switch statements should have at least 3 case clauses;2
+Methods should not be empty;throws declarations should not be superfluous;2
+Map.get and value test should be replaced with single method call;Track uses of TODO tags;2
+Collection.isEmpty() should be used to test for emptiness;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;2
+Field names should comply with a naming convention;Public constants and fields initialized at declaration should be static final rather than merely final;2
+Collection.isEmpty() should be used to test for emptiness;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Boxed Boolean should be avoided in boolean expressions;Conditionally executed blocks should be reachable;2
+Externalizable classes should have no-arguments constructors;Fields in a Serializable class should either be transient or serializable;2
+InterruptedException should not be ignored;Methods should not be empty;2
+Boolean expressions should not be gratuitous;Unnecessary imports should be removed;2
+@Override should be used on overriding and implementing methods;Catches should be combined;2
+Method names should comply with a naming convention;Try-catch blocks should not be nested;2
+Sections of code should not be commented out;Unused method parameters should be removed;2
+Conditionally executed blocks should be reachable;Source files should not have any duplicated blocks;2
+Insufficient Modularization;Local variable and method parameter names should comply with a naming convention;2
+Null checks should not be used with instanceof;The diamond operator (<>) should be used;2
+Catches should be combined;Utility classes should not have public constructors;2
+Deficient Encapsulation;Nested blocks of code should not be left empty;2
+Feature Concentration;Unnecessary Abstraction;2
+Child class fields should not shadow parent class fields;InterruptedException should not be ignored;2
+Java 8 features should be preferred to Guava;Sections of code should not be commented out;2
+Loops should not contain more than a single break or continue statement;Unused method parameters should be removed;2
+Dead stores should be removed;Unused method parameters should be removed;2
+Boolean literals should not be redundant;Catches should be combined;2
+Method names should comply with a naming convention;switch statements should have default clauses;2
+Assignments should not be redundant;Methods should not have too many parameters;2
+Exceptions should be either logged or rethrown but not both;Methods should not have too many parameters;2
+Anonymous inner classes containing only one method should become lambdas;Non-primitive fields should not be volatile;2
+Catches should be combined;Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;2
+Return of boolean expressions should not be wrapped into an if-then-else statement;String literals should not be duplicated;2
+Exceptions should be either logged or rethrown but not both;Generic exceptions should never be thrown;2
+Null pointers should not be dereferenced;Printf-style format strings should be used correctly;2
+Feature Concentration;ThreadLocal variables should be cleaned up when no longer used;2
+Empty arrays and collections should be returned instead of null;Java 8 features should be preferred to Guava;2
+Conditionally executed blocks should be reachable;Unused private fields should be removed;2
+Broken Hierarchy;Cyclically-dependent Modularization;2
+Collection.isEmpty() should be used to test for emptiness;Java 8 features should be preferred to Guava;2
+Fields in a Serializable class should either be transient or serializable;Subclasses that add fields should override equals;2
+Generic exceptions should never be thrown;Unused method parameters should be removed;2
+Null checks should not be used with instanceof;Unutilized Abstraction;2
+Catches should be combined;Method names should comply with a naming convention;2
+Conditionally executed blocks should be reachable;Null pointers should not be dereferenced;2
+Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;The diamond operator (<>) should be used;2
+Empty arrays and collections should be returned instead of null;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Cognitive Complexity of methods should not be too high;Strings should not be concatenated using '+' in a loop;2
+Source files should not have any duplicated blocks;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;2
+Local variable and method parameter names should comply with a naming convention;Preconditions and logging arguments should not require evaluation;2
+Method names should comply with a naming convention;Track uses of TODO tags;2
+Local variables should not be declared and then immediately returned or thrown;Printf-style format strings should be used correctly;2
+Resources should be closed;Standard outputs should not be used directly to log anything;2
+Feature Concentration;ThreadLocal.withInitial should be preferred;2
+Catches should be combined;Map.get and value test should be replaced with single method call;2
+Loops should not contain more than a single break or continue statement;throws declarations should not be superfluous;2
+Boxed Boolean should be avoided in boolean expressions;Track uses of TODO tags;2
+Null pointers should not be dereferenced;Sections of code should not be commented out;2
+Boolean expressions should not be gratuitous;Boxed Boolean should be avoided in boolean expressions;2
+Cyclically-dependent Modularization;Source files should not have any duplicated blocks;2
+Local variables should not be declared and then immediately returned or thrown;Unused method parameters should be removed;2
+Insufficient Modularization;Methods should not be empty;2
+Feature Concentration;Redundant casts should not be used;2
+Collection.isEmpty() should be used to test for emptiness;Track uses of TODO tags;2
+Track uses of TODO tags;Two branches in a conditional structure should not have exactly the same implementation;2
+The diamond operator (<>) should be used;Unused private methods should be removed;2
+Methods should not be empty;Source files should not have any duplicated blocks;2
+Feature Concentration;Maps with keys that are enum values should be replaced with EnumMap;2
+Method names should comply with a naming convention;Unused method parameters should be removed;2
+Boolean expressions should not be gratuitous;Nested blocks of code should not be left empty;2
+Broken Hierarchy;Deficient Encapsulation;2
+The diamond operator (<>) should be used;Wide Hierarchy;2
+Map.get and value test should be replaced with single method call;Return of boolean expressions should not be wrapped into an if-then-else statement;2
+Boolean expressions should not be gratuitous;Feature Concentration;2
+Loops should not contain more than a single break or continue statement;Null pointers should not be dereferenced;2
+Collapsible if statements should be merged;Nested blocks of code should not be left empty;2
+Preconditions and logging arguments should not require evaluation;Try-catch blocks should not be nested;2
+Arrays should not be copied using loops;Cognitive Complexity of methods should not be too high;2
+Local variable and method parameter names should comply with a naming convention;switch statements should have default clauses;2
+Methods should not be empty;Unused method parameters should be removed;2
+Feature Concentration;Nullness of parameters should be guaranteed;2
+Child class fields should not shadow parent class fields;Sections of code should not be commented out;2
+Null pointers should not be dereferenced;String literals should not be duplicated;2
+Methods should not have identical implementations;Sections of code should not be commented out;2
+Ternary operators should not be nested;throws declarations should not be superfluous;2
+Cyclically-dependent Modularization;Local variable and method parameter names should comply with a naming convention;2
+Utility classes should not have public constructors;entrySet() should be iterated when both the key and value are needed;2
+Conditionally executed blocks should be reachable;Local variable and method parameter names should comply with a naming convention;2
+Dead stores should be removed;Methods should not have too many parameters;2
+@Deprecated code should not be used;Unused method parameters should be removed;2
+Deprecated code should be removed;Unnecessary imports should be removed;2
+Collapsible if statements should be merged;Loops should not contain more than a single break or continue statement;2
+Catches should be combined;Nested blocks of code should not be left empty;2
+Classes that override clone should be Cloneable and call super.clone();The diamond operator (<>) should be used;1
+Sections of code should not be commented out;Two branches in a conditional structure should not have exactly the same implementation;1
+Insufficient Modularization;Printf-style format strings should not lead to unexpected behavior at runtime;1
+String literals should not be duplicated;Type parameter names should comply with a naming convention;1
+An iteration on a Collection should be performed on the type handled by the Collection;Unutilized Abstraction;1
+Cognitive Complexity of methods should not be too high;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Local variables should not be declared and then immediately returned or thrown;Nested blocks of code should not be left empty;1
+Resources should be closed;Sections of code should not be commented out;1
+Generic exceptions should never be thrown;Redundant casts should not be used;1
+Field names should comply with a naming convention;Sections of code should not be commented out;1
+Source files should not have any duplicated blocks;Unused local variables should be removed;1
+Catches should be combined;URIs should not be hardcoded;1
+Feature Concentration;Overrides should match their parent class methods in synchronization;1
+Field names should comply with a naming convention;Wide Hierarchy;1
+Collection.isEmpty() should be used to test for emptiness;Jump statements should not be redundant;1
+Broken Hierarchy;Local variables should not shadow class fields;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;The diamond operator (<>) should be used;1
+Fields in a Serializable class should either be transient or serializable;ThreadLocal.withInitial should be preferred;1
+Local variable and method parameter names should comply with a naming convention;throws declarations should not be superfluous;1
+Conditionally executed blocks should be reachable;Try-catch blocks should not be nested;1
+Generic exceptions should never be thrown;Subclasses that add fields should override equals;1
+Feature Concentration;Mutable fields should not be public static;1
+@Override should be used on overriding and implementing methods;Fields in a Serializable class should either be transient or serializable;1
+Loggers should be named for their enclosing classes;Methods should not be empty;1
+Loops should not contain more than a single break or continue statement;Strings should not be concatenated using '+' in a loop;1
+Local variables should not be declared and then immediately returned or thrown;Strings and Boxed types should be compared using equals();1
+InterruptedException should not be ignored;Local variable and method parameter names should comply with a naming convention;1
+@Override should be used on overriding and implementing methods;Inheritance tree of classes should not be too deep;1
+Cognitive Complexity of methods should not be too high;switch statements should have at least 3 case clauses;1
+Boxed Boolean should be avoided in boolean expressions;Null pointers should not be dereferenced;1
+Sections of code should not be commented out;Utility classes should not have public constructors;1
+Preconditions and logging arguments should not require evaluation;Resources should be closed;1
+Deprecated code should be removed;Strings should not be concatenated using '+' in a loop;1
+Boxed Boolean should be avoided in boolean expressions;Nested blocks of code should not be left empty;1
+Loops should not contain more than a single break or continue statement;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Inheritance tree of classes should not be too deep;Sections of code should not be commented out;1
+Unutilized Abstraction;notifyAll should be used;1
+Anonymous inner classes containing only one method should become lambdas;Nested blocks of code should not be left empty;1
+Mutable fields should not be public static;String literals should not be duplicated;1
+Collapsible if statements should be merged;Printf-style format strings should not lead to unexpected behavior at runtime;1
+InterruptedException should not be ignored;Ternary operators should not be nested;1
+Empty arrays and collections should be returned instead of null;Generic exceptions should never be thrown;1
+Broken Hierarchy;Empty arrays and collections should be returned instead of null;1
+Methods should not have too many parameters;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Deprecated elements should have both the annotation and the Javadoc tag;Feature Concentration;1
+Constant names should comply with a naming convention;Unnecessary imports should be removed;1
+Unused private fields should be removed;switch statements should have at least 3 case clauses;1
+Map.get and value test should be replaced with single method call;Printf-style format strings should be used correctly;1
+Anonymous inner classes containing only one method should become lambdas;Jump statements should not be redundant;1
+Collapsible if statements should be merged;Java 8 features should be preferred to Guava;1
+Loops should not contain more than a single break or continue statement;Unused local variables should be removed;1
+Constant names should comply with a naming convention;Unused private fields should be removed;1
+Boolean literals should not be redundant;Cyclically-dependent Modularization;1
+Dead stores should be removed;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Deprecated elements should have both the annotation and the Javadoc tag;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Overrides should match their parent class methods in synchronization;ThreadLocal variables should be cleaned up when no longer used;1
+Cyclically-dependent Modularization;Fields in a Serializable class should either be transient or serializable;1
+Resources should be closed;Wide Hierarchy;1
+Nested blocks of code should not be left empty;StandardCharsets constants should be preferred;1
+Deprecated code should be removed;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Conditionally executed blocks should be reachable;Cyclically-dependent Modularization;1
+Boxed Boolean should be avoided in boolean expressions;Strings and Boxed types should be compared using equals();1
+Cognitive Complexity of methods should not be too high;Methods and field names should not be the same or differ only by capitalization;1
+Exceptions should be either logged or rethrown but not both;Two branches in a conditional structure should not have exactly the same implementation;1
+Deficient Encapsulation;Generic wildcard types should not be used in return parameters;1
+Printf-style format strings should be used correctly;Source files should not have any duplicated blocks;1
+Strings should not be concatenated using '+' in a loop;Two branches in a conditional structure should not have exactly the same implementation;1
+Generic wildcard types should not be used in return parameters;Insufficient Modularization;1
+StandardCharsets constants should be preferred;Utility classes should not have public constructors;1
+Deficient Encapsulation;Using regular expressions is security-sensitive;1
+Loops should not contain more than a single break or continue statement;Subclasses that add fields should override equals;1
+Anonymous inner classes containing only one method should become lambdas;Class names should comply with a naming convention;1
+@Override should be used on overriding and implementing methods;ThreadLocal.withInitial should be preferred;1
+@Override should be used on overriding and implementing methods;Throwable and Error should not be caught;1
+Generic exceptions should never be thrown;Unused local variables should be removed;1
+Inheritance tree of classes should not be too deep;entrySet() should be iterated when both the key and value are needed;1
+Resources should be closed;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Methods should not be empty;switch statements should have default clauses;1
+Modifiers should be declared in the correct order;Utility classes should not have public constructors;1
+Boolean expressions should not be gratuitous;entrySet() should be iterated when both the key and value are needed;1
+Boolean literals should not be redundant;Local variable and method parameter names should comply with a naming convention;1
+Changing or bypassing accessibility is security-sensitive;entrySet() should be iterated when both the key and value are needed;1
+Nullness of parameters should be guaranteed;Utility classes should not have public constructors;1
+Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;entrySet() should be iterated when both the key and value are needed;1
+Null pointers should not be dereferenced;switch statements should have at least 3 case clauses;1
+Deprecated code should be removed;Unused private methods should be removed;1
+Externalizable classes should have no-arguments constructors;Insufficient Modularization;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Generic exceptions should never be thrown;1
+Assignments should not be redundant;Insufficient Modularization;1
+Ternary operators should not be nested;static base class members should not be accessed via derived types;1
+Classes that override clone should be Cloneable and call super.clone();Methods should not have too many parameters;1
+Classes that override clone should be Cloneable and call super.clone();Subclasses that add fields should override equals;1
+Iterator.next() methods should throw NoSuchElementException;Redundant pairs of parentheses should be removed;1
+Boxed Boolean should be avoided in boolean expressions;Java 8 features should be preferred to Guava;1
+Preconditions and logging arguments should not require evaluation;Ternary operators should not be nested;1
+Catches should be combined;Fields in a Serializable class should either be transient or serializable;1
+Changing or bypassing accessibility is security-sensitive;Local variables should not shadow class fields;1
+Map.get and value test should be replaced with single method call;Method names should comply with a naming convention;1
+Feature Concentration;Unused type parameters should be removed;1
+Boolean expressions should not be gratuitous;Static non-final field names should comply with a naming convention;1
+Jump statements should not be redundant;Sections of code should not be commented out;1
+Subclasses that add fields should override equals;equals(Object obj) and hashCode() should be overridden in pairs;1
+Getters and setters should access the expected fields;Methods should not have identical implementations;1
+Java 8 features should be preferred to Guava;Try-catch blocks should not be nested;1
+Conditionally executed blocks should be reachable;Printf-style format strings should be used correctly;1
+Null checks should not be used with instanceof;Type parameter names should comply with a naming convention;1
+Collection.isEmpty() should be used to test for emptiness;InterruptedException should not be ignored;1
+Subclasses that add fields should override equals;clone should not be overridden;1
+Modifiers should be declared in the correct order;Printf-style format strings should be used correctly;1
+Catches should be combined;Local variable and method parameter names should comply with a naming convention;1
+Conditionally executed blocks should be reachable;Preconditions and logging arguments should not require evaluation;1
+Changing or bypassing accessibility is security-sensitive;Collapsible if statements should be merged;1
+Two branches in a conditional structure should not have exactly the same implementation;Unutilized Abstraction;1
+An iteration on a Collection should be performed on the type handled by the Collection;Anonymous inner classes containing only one method should become lambdas;1
+Deficient Encapsulation;Method names should comply with a naming convention;1
+Nested blocks of code should not be left empty;Track uses of TODO tags;1
+Child class fields should not shadow parent class fields;Strings should not be concatenated using '+' in a loop;1
+Abstract classes without fields should be converted to interfaces;Cognitive Complexity of methods should not be too high;1
+Boolean literals should not be redundant;Collapsible if statements should be merged;1
+Public constants and fields initialized at declaration should be static final rather than merely final;Track uses of TODO tags;1
+Collapsible if statements should be merged;Jump statements should not be redundant;1
+@Override should be used on overriding and implementing methods;Method names should comply with a naming convention;1
+Class variable fields should not have public accessibility;Static non-final field names should comply with a naming convention;1
+Generic wildcard types should not be used in return parameters;Utility classes should not have public constructors;1
+Cognitive Complexity of methods should not be too high;public static fields should be constant;1
+Type parameter names should comply with a naming convention;Unused private fields should be removed;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Method names should comply with a naming convention;1
+Generic wildcard types should not be used in return parameters;Unnecessary imports should be removed;1
+Abstract classes without fields should be converted to interfaces;Preconditions and logging arguments should not require evaluation;1
+Deficient Encapsulation;Two branches in a conditional structure should not have exactly the same implementation;1
+Deprecated code should be removed;switch statements should have default clauses;1
+Cyclically-dependent Modularization;Methods should not have identical implementations;1
+Inheritance tree of classes should not be too deep;Unutilized Abstraction;1
+Boxed Boolean should be avoided in boolean expressions;Two branches in a conditional structure should not have exactly the same implementation;1
+Collapsible if statements should be merged;Printf-style format strings should be used correctly;1
+@Override should be used on overriding and implementing methods;Utility classes should not have public constructors;1
+Empty arrays and collections should be returned instead of null;Null pointers should not be dereferenced;1
+Child class fields should not shadow parent class fields;Conditionally executed blocks should be reachable;1
+Child class fields should not shadow parent class fields;switch statements should have default clauses;1
+Assignments should not be redundant;Unnecessary imports should be removed;1
+Cognitive Complexity of methods should not be too high;Maps with keys that are enum values should be replaced with EnumMap;1
+Nested blocks of code should not be left empty;Unused private fields should be removed;1
+@Deprecated code should not be used;StandardCharsets constants should be preferred;1
+Empty arrays and collections should be returned instead of null;Methods should not be empty;1
+Local variable and method parameter names should comply with a naming convention;Ternary operators should not be nested;1
+Arrays should not be copied using loops;Collection.isEmpty() should be used to test for emptiness;1
+Arrays should not be copied using loops;Wide Hierarchy;1
+Sections of code should not be commented out;Strings and Boxed types should be compared using equals();1
+Ternary operators should not be nested;Utility classes should not have public constructors;1
+Printf-style format strings should not lead to unexpected behavior at runtime;entrySet() should be iterated when both the key and value are needed;1
+Cyclically-dependent Modularization;private methods called only by inner classes should be moved to those classes;1
+An iteration on a Collection should be performed on the type handled by the Collection;Collection.isEmpty() should be used to test for emptiness;1
+Cognitive Complexity of methods should not be too high;write(byte[] int int) should be overridden;1
+Generic exceptions should never be thrown;Map.get and value test should be replaced with single method call;1
+Constant names should comply with a naming convention;Deficient Encapsulation;1
+Null pointers should not be dereferenced;Type parameter names should comply with a naming convention;1
+Child class fields should not shadow parent class fields;Empty arrays and collections should be returned instead of null;1
+Conditionally executed blocks should be reachable;Java 8 features should be preferred to Guava;1
+Null checks should not be used with instanceof;Track uses of TODO tags;1
+Methods should not be empty;Unused private fields should be removed;1
+Deficient Encapsulation;Java 8 features should be preferred to Guava;1
+Dead stores should be removed;Map.get and value test should be replaced with single method call;1
+Externalizable classes should have no-arguments constructors;Loops should not contain more than a single break or continue statement;1
+Classes from sun.* packages should not be used;Cyclically-dependent Modularization;1
+Preconditions and logging arguments should not require evaluation;Static non-final field names should comply with a naming convention;1
+Hashing data is security-sensitive;Sections of code should not be commented out;1
+Feature Concentration;Jump statements should not be redundant;1
+Redundant casts should not be used;Unused method parameters should be removed;1
+An iteration on a Collection should be performed on the type handled by the Collection;Sections of code should not be commented out;1
+Boolean literals should not be redundant;Local variables should not shadow class fields;1
+Field names should comply with a naming convention;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Boolean literals should not be redundant;Static non-final field names should comply with a naming convention;1
+Java 8 features should be preferred to Guava;Method names should comply with a naming convention;1
+Boxed Boolean should be avoided in boolean expressions;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Cognitive Complexity of methods should not be too high;Getters and setters should access the expected fields;1
+Utility classes should not have public constructors;throws declarations should not be superfluous;1
+Constant names should comply with a naming convention;Methods should not have too many parameters;1
+Cognitive Complexity of methods should not be too high;Redundant casts should not be used;1
+Generic exceptions should never be thrown;Methods should not be empty;1
+Catches should be combined;Conditionally executed blocks should be reachable;1
+Constant names should comply with a naming convention;Java 8 features should be preferred to Guava;1
+Inheritance tree of classes should not be too deep;throws declarations should not be superfluous;1
+Collapsible if statements should be merged;Cyclically-dependent Modularization;1
+Classes from sun.* packages should not be used;String literals should not be duplicated;1
+Deprecated code should be removed;String literals should not be duplicated;1
+Broken Modularization;URIs should not be hardcoded;1
+Feature Concentration;Standard outputs should not be used directly to log anything;1
+Boxed Boolean should be avoided in boolean expressions;Unused private fields should be removed;1
+Feature Concentration;Using command line arguments is security-sensitive;1
+Boolean literals should not be redundant;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Class names should comply with a naming convention;Method names should comply with a naming convention;1
+Class names should comply with a naming convention;Unnecessary imports should be removed;1
+Boolean literals should not be redundant;Deprecated code should be removed;1
+Collection.isEmpty() should be used to test for emptiness;Deficient Encapsulation;1
+Unused private fields should be removed;switch statements should have default clauses;1
+Classes should not be compared by name;Feature Concentration;1
+Broken Hierarchy;Feature Envy;1
+Deficient Encapsulation;toString() should never be called on a String object;1
+Sections of code should not be commented out;Type parameter names should comply with a naming convention;1
+Externalizable classes should have no-arguments constructors;Methods should not have too many parameters;1
+Source files should not have any duplicated blocks;switch statements should have at least 3 case clauses;1
+Boolean expressions should not be gratuitous;Deprecated code should be removed;1
+Exceptions should be either logged or rethrown but not both;Utility classes should not have public constructors;1
+Field names should comply with a naming convention;entrySet() should be iterated when both the key and value are needed;1
+Exceptions should be either logged or rethrown but not both;Inheritance tree of classes should not be too deep;1
+Null checks should not be used with instanceof;Printf-style format strings should be used correctly;1
+Generic exceptions should never be thrown;Methods should not return constants;1
+Arrays should not be copied using loops;Constant names should comply with a naming convention;1
+Ternary operators should not be nested;Unused method parameters should be removed;1
+Printf-style format strings should be used correctly;Wide Hierarchy;1
+Generic exceptions should never be thrown;public static fields should be constant;1
+Generic exceptions should never be thrown;Hashing data is security-sensitive;1
+Arrays should not be copied using loops;Sections of code should not be commented out;1
+Java 8 features should be preferred to Guava;Two branches in a conditional structure should not have exactly the same implementation;1
+Feature Concentration;Weak SSL protocols should not be used;1
+Conditionally executed blocks should be reachable;Method names should comply with a naming convention;1
+Deprecated elements should have both the annotation and the Javadoc tag;Source files should not have any duplicated blocks;1
+Exceptions should be either logged or rethrown but not both;Nested blocks of code should not be left empty;1
+Deficient Encapsulation;Preconditions and logging arguments should not require evaluation;1
+Feature Concentration;equals(Object obj) and hashCode() should be overridden in pairs;1
+Fields in a Serializable class should either be transient or serializable;Overriding methods should do more than simply call the same method in the super class;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Unnecessary imports should be removed;1
+Exceptions should be either logged or rethrown but not both;Unused method parameters should be removed;1
+Local variable and method parameter names should comply with a naming convention;entrySet() should be iterated when both the key and value are needed;1
+Constant names should comply with a naming convention;Preconditions and logging arguments should not require evaluation;1
+Cognitive Complexity of methods should not be too high;Strings and Boxed types should be compared using equals();1
+Multifaceted Abstraction;Mutable fields should not be public static;1
+Constant names should comply with a naming convention;Insufficient Modularization;1
+Class variable fields should not have public accessibility;Collapsible if statements should be merged;1
+Local variables should not shadow class fields;Subclasses that add fields should override equals;1
+Null checks should not be used with instanceof;Unused private fields should be removed;1
+Private fields only used as local variables in methods should become local variables;The diamond operator (<>) should be used;1
+Feature Concentration;Redundant pairs of parentheses should be removed;1
+Boolean literals should not be redundant;throws declarations should not be superfluous;1
+Class names should comply with a naming convention;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Class variable fields should not have public accessibility;Cognitive Complexity of methods should not be too high;1
+ThreadLocal variables should be cleaned up when no longer used;Utility classes should not have public constructors;1
+Fields in a Serializable class should either be transient or serializable;Local variables should not be declared and then immediately returned or thrown;1
+Catches should be combined;Loggers should be named for their enclosing classes;1
+An iteration on a Collection should be performed on the type handled by the Collection;Catches should be combined;1
+Constant names should comply with a naming convention;Unused method parameters should be removed;1
+@Override should be used on overriding and implementing methods;Two branches in a conditional structure should not have exactly the same implementation;1
+Methods should not have too many parameters;equals(Object obj) and hashCode() should be overridden in pairs;1
+Dead stores should be removed;Generic exceptions should never be thrown;1
+String literals should not be duplicated;Try-catch blocks should not be nested;1
+Class names should comply with a naming convention;The diamond operator (<>) should be used;1
+Cognitive Complexity of methods should not be too high;Constant names should comply with a naming convention;1
+Local variables should not shadow class fields;throws declarations should not be superfluous;1
+Class variable fields should not have public accessibility;Nested blocks of code should not be left empty;1
+Source files should not have any duplicated blocks;Static non-final field names should comply with a naming convention;1
+The diamond operator (<>) should be used;write(byte[] int int) should be overridden;1
+@Override should be used on overriding and implementing methods;Sections of code should not be commented out;1
+Nested blocks of code should not be left empty;String literals should not be duplicated;1
+Cyclically-dependent Modularization;Sections of code should not be commented out;1
+Loops should not contain more than a single break or continue statement;Ternary operators should not be nested;1
+Local variable and method parameter names should comply with a naming convention;Non-primitive fields should not be volatile;1
+Two branches in a conditional structure should not have exactly the same implementation;Unused method parameters should be removed;1
+Redundant pairs of parentheses should be removed;Unutilized Abstraction;1
+Java 8 features should be preferred to Guava;Wide Hierarchy;1
+@Override should be used on overriding and implementing methods;Overrides should match their parent class methods in synchronization;1
+Dead stores should be removed;URIs should not be hardcoded;1
+Classes that override clone should be Cloneable and call super.clone();Insufficient Modularization;1
+Boolean expressions should not be gratuitous;Class variable fields should not have public accessibility;1
+Deficient Encapsulation;Null pointers should not be dereferenced;1
+InterruptedException should not be ignored;Strings should not be concatenated using '+' in a loop;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Track uses of TODO tags;1
+Boxed Boolean should be avoided in boolean expressions;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Changing or bypassing accessibility is security-sensitive;Utility classes should not have public constructors;1
+Boolean expressions should not be gratuitous;public static fields should be constant;1
+Empty arrays and collections should be returned instead of null;Weak SSL protocols should not be used;1
+Class names should comply with a naming convention;switch statements should have default clauses;1
+Public constants and fields initialized at declaration should be static final rather than merely final;Unused private fields should be removed;1
+Deficient Encapsulation;Loggers should be named for their enclosing classes;1
+Conditionally executed blocks should be reachable;entrySet() should be iterated when both the key and value are needed;1
+@Override should be used on overriding and implementing methods;String literals should not be duplicated;1
+Methods should not be empty;String literals should not be duplicated;1
+Broken Hierarchy;Multifaceted Abstraction;1
+Cyclically-dependent Modularization;Field names should comply with a naming convention;1
+Boolean literals should not be redundant;Conditionally executed blocks should be reachable;1
+String literals should not be duplicated;private methods called only by inner classes should be moved to those classes;1
+Cyclically-dependent Modularization;Java 8 features should be preferred to Guava;1
+Printf-style format strings should be used correctly;Resources should be closed;1
+Field names should comply with a naming convention;Ternary operators should not be nested;1
+Generic exceptions should never be thrown;InterruptedException should not be ignored;1
+@Deprecated code should not be used;Cyclically-dependent Modularization;1
+Boolean expressions should not be gratuitous;Preconditions and logging arguments should not require evaluation;1
+Exceptions should be either logged or rethrown but not both;Track uses of TODO tags;1
+Catches should be combined;Externalizable classes should have no-arguments constructors;1
+Deficient Encapsulation;Strings and Boxed types should be compared using equals();1
+Redundant casts should not be used;The diamond operator (<>) should be used;1
+Local variables should not be declared and then immediately returned or thrown;switch statements should have at least 3 case clauses;1
+Static non-final field names should comply with a naming convention;public static fields should be constant;1
+entrySet() should be iterated when both the key and value are needed;switch statements should have default clauses;1
+Boolean expressions should not be gratuitous;Strings should not be concatenated using '+' in a loop;1
+Source files should not have any duplicated blocks;Ternary operators should not be nested;1
+Fields in a Serializable class should either be transient or serializable;Overrides should match their parent class methods in synchronization;1
+Jump statements should not be redundant;Unused method parameters should be removed;1
+Methods should not be empty;Sections of code should not be commented out;1
+Field names should comply with a naming convention;Local variable and method parameter names should comply with a naming convention;1
+Boolean expressions should not be gratuitous;Local variables should not be declared and then immediately returned or thrown;1
+Arrays should not be copied using loops;Unused method parameters should be removed;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;String literals should not be duplicated;1
+Generic exceptions should never be thrown;notifyAll should be used;1
+Anonymous inner classes containing only one method should become lambdas;Maps with keys that are enum values should be replaced with EnumMap;1
+Collapsible if statements should be merged;Static non-final field names should comply with a naming convention;1
+Public constants and fields initialized at declaration should be static final rather than merely final;Type parameter names should comply with a naming convention;1
+Getters and setters should access the expected fields;Insufficient Modularization;1
+Multifaceted Abstraction;Unused private fields should be removed;1
+Deprecated elements should have both the annotation and the Javadoc tag;Fields in a Serializable class should either be transient or serializable;1
+Feature Concentration;Static non-final field names should comply with a naming convention;1
+Empty arrays and collections should be returned instead of null;Printf-style format strings should be used correctly;1
+Java 8 features should be preferred to Guava;Strings and Boxed types should be compared using equals();1
+Generic exceptions should never be thrown;Loggers should be named for their enclosing classes;1
+Assignments should not be redundant;Cognitive Complexity of methods should not be too high;1
+Overrides should match their parent class methods in synchronization;ThreadLocal.withInitial should be preferred;1
+Changing or bypassing accessibility is security-sensitive;Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;1
+Printf-style format strings should not lead to unexpected behavior at runtime;The diamond operator (<>) should be used;1
+Arrays should not be copied using loops;Null pointers should not be dereferenced;1
+InterruptedException should not be ignored;Sections of code should not be commented out;1
+Methods should not have too many parameters;StandardCharsets constants should be preferred;1
+Generic exceptions should never be thrown;Static non-final field names should comply with a naming convention;1
+Boxed Boolean should be avoided in boolean expressions;Redundant pairs of parentheses should be removed;1
+Resources should be closed;Unused method parameters should be removed;1
+Deprecated code should be removed;Fields in a Serializable class should either be transient or serializable;1
+Preconditions and logging arguments should not require evaluation;Unused private methods should be removed;1
+Externalizable classes should have no-arguments constructors;Feature Concentration;1
+Collapsible if statements should be merged;Throwable and Error should not be caught;1
+Class names should comply with a naming convention;Track uses of TODO tags;1
+Fields in a Serializable class should either be transient or serializable;Utility classes should not have public constructors;1
+Catches should be combined;Resources should be closed;1
+Dead stores should be removed;Deficient Encapsulation;1
+@Deprecated code should not be used;Redundant casts should not be used;1
+Track uses of TODO tags;switch statements should have default clauses;1
+Feature Concentration;Throwable.printStackTrace(...) should not be called;1
+Jump statements should not be redundant;Methods should not have too many parameters;1
+Local variables should not be declared and then immediately returned or thrown;Utility classes should not have public constructors;1
+Catches should be combined;switch statements should have default clauses;1
+Feature Concentration;StandardCharsets constants should be preferred;1
+The diamond operator (<>) should be used;Throwable and Error should not be caught;1
+Deprecated elements should have both the annotation and the Javadoc tag;Methods should not have too many parameters;1
+Empty statements should be removed;Feature Concentration;1
+Child class fields should not shadow parent class fields;Local variable and method parameter names should comply with a naming convention;1
+Classes that override clone should be Cloneable and call super.clone();clone should not be overridden;1
+Preconditions and logging arguments should not require evaluation;Wide Hierarchy;1
+Map.get and value test should be replaced with single method call;Source files should not have any duplicated blocks;1
+Java 8 features should be preferred to Guava;Unused private fields should be removed;1
+InterruptedException should not be ignored;Unused private methods should be removed;1
+Classes should not be compared by name;Redundant casts should not be used;1
+Boxed Boolean should be avoided in boolean expressions;Utility classes should not have public constructors;1
+Local variables should not be declared and then immediately returned or thrown;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Deficient Encapsulation;static base class members should not be accessed via derived types;1
+Collection.isEmpty() should be used to test for emptiness;Local variables should not be declared and then immediately returned or thrown;1
+Collection.isEmpty() should be used to test for emptiness;Exceptions should be either logged or rethrown but not both;1
+Empty arrays and collections should be returned instead of null;Preconditions and logging arguments should not require evaluation;1
+Printf-style format strings should be used correctly;Unused local variables should be removed;1
+Changing or bypassing accessibility is security-sensitive;Two branches in a conditional structure should not have exactly the same implementation;1
+Collection.isEmpty() should be used to test for emptiness;Map.get and value test should be replaced with single method call;1
+An iteration on a Collection should be performed on the type handled by the Collection;entrySet() should be iterated when both the key and value are needed;1
+Track uses of TODO tags;Using regular expressions is security-sensitive;1
+Multiple variables should not be declared on the same line;Using regular expressions is security-sensitive;1
+Local variable and method parameter names should comply with a naming convention;String literals should not be duplicated;1
+String literals should not be duplicated;toString() should never be called on a String object;1
+Cognitive Complexity of methods should not be too high;Throwable and Error should not be caught;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Try-catch blocks should not be nested;1
+Ternary operators should not be nested;Unutilized Abstraction;1
+Sections of code should not be commented out;ThreadLocal variables should be cleaned up when no longer used;1
+Classes should not be compared by name;Map.get and value test should be replaced with single method call;1
+Methods should not have too many parameters;Strings and Boxed types should be compared using equals();1
+Broken Hierarchy;Track uses of TODO tags;1
+Overrides should match their parent class methods in synchronization;Sections of code should not be commented out;1
+Null pointers should not be dereferenced;switch statements should have default clauses;1
+Boxed Boolean should be avoided in boolean expressions;Collapsible if statements should be merged;1
+Unnecessary Abstraction;Unnecessary imports should be removed;1
+Class names should comply with a naming convention;Local variable and method parameter names should comply with a naming convention;1
+Feature Concentration;private methods called only by inner classes should be moved to those classes;1
+Methods should not have too many parameters;Short-circuit logic should be used in boolean contexts;1
+Boolean literals should not be redundant;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Wide Hierarchy;entrySet() should be iterated when both the key and value are needed;1
+String literals should not be duplicated;Strings should not be concatenated using '+' in a loop;1
+Java 8 features should be preferred to Guava;Modifiers should be declared in the correct order;1
+Boolean expressions should not be gratuitous;switch statements should have default clauses;1
+Jump statements should not be redundant;The diamond operator (<>) should be used;1
+Cognitive Complexity of methods should not be too high;Multiple variables should not be declared on the same line;1
+Field names should comply with a naming convention;throws declarations should not be superfluous;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Two branches in a conditional structure should not have exactly the same implementation;1
+Constant names should comply with a naming convention;Track uses of TODO tags;1
+Try-catch blocks should not be nested;switch statements should have default clauses;1
+Deficient Encapsulation;Feature Envy;1
+@Deprecated code should not be used;Sections of code should not be commented out;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Generic wildcard types should not be used in return parameters;Source files should not have any duplicated blocks;1
+Wide Hierarchy;throws declarations should not be superfluous;1
+@Deprecated code should not be used;Java 8 features should be preferred to Guava;1
+Abstract methods should not be redundant;equals(Object obj) and hashCode() should be overridden in pairs;1
+Null pointers should not be dereferenced;Try-catch blocks should not be nested;1
+Null checks should not be used with instanceof;String literals should not be duplicated;1
+Loops should not contain more than a single break or continue statement;Map.get and value test should be replaced with single method call;1
+Null checks should not be used with instanceof;Sections of code should not be commented out;1
+Local variables should not be declared and then immediately returned or thrown;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Preconditions and logging arguments should not require evaluation;Redundant casts should not be used;1
+@Deprecated code should not be used;Inheritance tree of classes should not be too deep;1
+Methods should not have too many parameters;Type parameter names should comply with a naming convention;1
+@Deprecated code should not be used;Deficient Encapsulation;1
+Boolean expressions should not be gratuitous;Null pointers should not be dereferenced;1
+Boolean expressions should not be gratuitous;Catches should be combined;1
+Printf-style format strings should be used correctly;Static non-final field names should comply with a naming convention;1
+String literals should not be duplicated;switch statements should have at least 3 case clauses;1
+Collapsible if statements should be merged;Null checks should not be used with instanceof;1
+Feature Concentration;Getters and setters should access the expected fields;1
+Feature Concentration;Public constants and fields initialized at declaration should be static final rather than merely final;1
+Boxed Boolean should be avoided in boolean expressions;Iterator.next() methods should throw NoSuchElementException;1
+@Override should be used on overriding and implementing methods;Hashing data is security-sensitive;1
+Throwable.printStackTrace(...) should not be called;Unutilized Abstraction;1
+Deprecated code should be removed;The diamond operator (<>) should be used;1
+Cyclically-dependent Modularization;Jump statements should not be redundant;1
+Class variable fields should not have public accessibility;Deficient Encapsulation;1
+Deficient Encapsulation;Static non-final field names should comply with a naming convention;1
+Feature Envy;Unused private fields should be removed;1
+Hashing data is security-sensitive;ThreadLocal variables should be cleaned up when no longer used;1
+Throwable and Error should not be caught;Unutilized Abstraction;1
+Map.get and value test should be replaced with single method call;Unused local variables should be removed;1
+Methods should not be empty;TrustManagers should not blindly accept any certificates;1
+Fields in a Serializable class should either be transient or serializable;ThreadLocal variables should be cleaned up when no longer used;1
+Anonymous inner classes containing only one method should become lambdas;Printf-style format strings should not lead to unexpected behavior at runtime;1
+@Deprecated code should not be used;Unused private methods should be removed;1
+Changing or bypassing accessibility is security-sensitive;Feature Concentration;1
+Abstract methods should not be redundant;static base class members should not be accessed via derived types;1
+InterruptedException should not be ignored;throws declarations should not be superfluous;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Utility classes should not have public constructors;1
+Insufficient Modularization;Utility classes should not have public constructors;1
+Classes from sun.* packages should not be used;Methods should not have too many parameters;1
+Cyclically-dependent Modularization;Map.get and value test should be replaced with single method call;1
+Anonymous inner classes containing only one method should become lambdas;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Boolean literals should not be redundant;Deficient Encapsulation;1
+Methods should not be empty;Nested blocks of code should not be left empty;1
+Catches should be combined;toString() should never be called on a String object;1
+@Deprecated code should not be used;Two branches in a conditional structure should not have exactly the same implementation;1
+Broken Hierarchy;switch statements should have default clauses;1
+Methods should not have too many parameters;Private fields only used as local variables in methods should become local variables;1
+Anonymous inner classes containing only one method should become lambdas;InterruptedException should not be ignored;1
+Java 8 features should be preferred to Guava;Static non-final field names should comply with a naming convention;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Local variable and method parameter names should comply with a naming convention;1
+Exceptions should be either logged or rethrown but not both;URIs should not be hardcoded;1
+Local variables should not be declared and then immediately returned or thrown;Method names should comply with a naming convention;1
+entrySet() should be iterated when both the key and value are needed;static base class members should not be accessed via derived types;1
+Unused private fields should be removed;entrySet() should be iterated when both the key and value are needed;1
+Conditionally executed blocks should be reachable;Map.get and value test should be replaced with single method call;1
+Abstract methods should not be redundant;Unnecessary imports should be removed;1
+Catches should be combined;Null checks should not be used with instanceof;1
+Generic exceptions should never be thrown;Unused private fields should be removed;1
+Arrays should not be copied using loops;throws declarations should not be superfluous;1
+Collapsible if statements should be merged;Strings and Boxed types should be compared using equals();1
+Collapsible if statements should be merged;Unused local variables should be removed;1
+Methods should not be empty;notifyAll should be used;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;switch statements should have default clauses;1
+Changing or bypassing accessibility is security-sensitive;Deficient Encapsulation;1
+Broken Modularization;Constants should not be defined in interfaces;1
+Overrides should match their parent class methods in synchronization;Utility classes should not have public constructors;1
+Java 8 features should be preferred to Guava;Local variable and method parameter names should comply with a naming convention;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Feature Concentration;1
+@Deprecated code should not be used;Nested blocks of code should not be left empty;1
+Boolean literals should not be redundant;Nested blocks of code should not be left empty;1
+InterruptedException should not be ignored;Unnecessary imports should be removed;1
+Boolean expressions should not be gratuitous;Strings and Boxed types should be compared using equals();1
+Insufficient Modularization;Unused private methods should be removed;1
+Broken Hierarchy;Local variable and method parameter names should comply with a naming convention;1
+Child class fields should not shadow parent class fields;Preconditions and logging arguments should not require evaluation;1
+Classes should not be compared by name;Collapsible if statements should be merged;1
+Methods should not have too many parameters;clone should not be overridden;1
+Fields in a Serializable class should either be transient or serializable;Hashing data is security-sensitive;1
+Child class fields should not shadow parent class fields;Collection.isEmpty() should be used to test for emptiness;1
+Java 8 features should be preferred to Guava;Using regular expressions is security-sensitive;1
+Boolean literals should not be redundant;Loops should not contain more than a single break or continue statement;1
+Catches should be combined;Methods should not be empty;1
+switch statements should have at least 3 case clauses;throws declarations should not be superfluous;1
+Classes should not be compared by name;Generic exceptions should never be thrown;1
+@Override should be used on overriding and implementing methods;Collapsible if statements should be merged;1
+Maps with keys that are enum values should be replaced with EnumMap;Unutilized Abstraction;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;private methods called only by inner classes should be moved to those classes;1
+Loops should not contain more than a single break or continue statement;String literals should not be duplicated;1
+Java 8 features should be preferred to Guava;Local variables should not shadow class fields;1
+Java 8 features should be preferred to Guava;switch statements should have default clauses;1
+Insufficient Modularization;Two branches in a conditional structure should not have exactly the same implementation;1
+InterruptedException should not be ignored;Unused private fields should be removed;1
+Null pointers should not be dereferenced;public static fields should be constant;1
+Printf-style format strings should be used correctly;switch statements should have default clauses;1
+Using Sockets is security-sensitive;Weak SSL protocols should not be used;1
+ThreadLocal.withInitial should be preferred;Utility classes should not have public constructors;1
+@Deprecated code should not be used;Loops should not contain more than a single break or continue statement;1
+Generic exceptions should never be thrown;static base class members should not be accessed via derived types;1
+Classes from sun.* packages should not be used;The diamond operator (<>) should be used;1
+The diamond operator (<>) should be used;clone should not be overridden;1
+Anonymous inner classes containing only one method should become lambdas;static base class members should not be accessed via derived types;1
+Classes should not be compared by name;Cognitive Complexity of methods should not be too high;1
+@Override should be used on overriding and implementing methods;ThreadLocal variables should be cleaned up when no longer used;1
+Local variable and method parameter names should comply with a naming convention;Map.get and value test should be replaced with single method call;1
+Static non-final field names should comply with a naming convention;Using regular expressions is security-sensitive;1
+Classes should not be compared by name;Unused method parameters should be removed;1
+Methods and field names should not be the same or differ only by capitalization;String literals should not be duplicated;1
+Null pointers should not be dereferenced;Static non-final field names should comply with a naming convention;1
+Generic exceptions should never be thrown;Printf-style format strings should be used correctly;1
+Methods should not return constants;The diamond operator (<>) should be used;1
+Collapsible if statements should be merged;String literals should not be duplicated;1
+Child class fields should not shadow parent class fields;Local variables should not be declared and then immediately returned or thrown;1
+Loops should not contain more than a single break or continue statement;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Loops should not contain more than a single break or continue statement;Preconditions and logging arguments should not require evaluation;1
+Arrays should not be copied using loops;Printf-style format strings should be used correctly;1
+Iterator.next() methods should throw NoSuchElementException;Unutilized Abstraction;1
+Generic exceptions should never be thrown;Local variables should not be declared and then immediately returned or thrown;1
+Constant names should comply with a naming convention;throws declarations should not be superfluous;1
+Empty arrays and collections should be returned instead of null;Using Sockets is security-sensitive;1
+Local variable and method parameter names should comply with a naming convention;Unused private fields should be removed;1
+Methods should not have identical implementations;Unutilized Abstraction;1
+Cyclically-dependent Modularization;Generic exceptions should never be thrown;1
+Boolean literals should not be redundant;Collection.isEmpty() should be used to test for emptiness;1
+Empty arrays and collections should be returned instead of null;Ternary operators should not be nested;1
+Boolean expressions should not be gratuitous;InterruptedException should not be ignored;1
+The diamond operator (<>) should be used;private methods called only by inner classes should be moved to those classes;1
+Printf-style format strings should be used correctly;Unused private fields should be removed;1
+@Override should be used on overriding and implementing methods;Collection.isEmpty() should be used to test for emptiness;1
+Anonymous inner classes containing only one method should become lambdas;Modifiers should be declared in the correct order;1
+Insufficient Modularization;Strings should not be concatenated using '+' in a loop;1
+Null checks should not be used with instanceof;Source files should not have any duplicated blocks;1
+Boolean literals should not be redundant;Map.get and value test should be replaced with single method call;1
+Hashing data is security-sensitive;Utility classes should not have public constructors;1
+Redundant casts should not be used;throws declarations should not be superfluous;1
+Assignments should not be redundant;Feature Concentration;1
+Printf-style format strings should be used correctly;static base class members should not be accessed via derived types;1
+Anonymous inner classes containing only one method should become lambdas;Classes that override clone should be Cloneable and call super.clone();1
+Nullness of parameters should be guaranteed;The diamond operator (<>) should be used;1
+Unnecessary imports should be removed;toString() should never be called on a String object;1
+Collection.isEmpty() should be used to test for emptiness;Source files should not have any duplicated blocks;1
+An iteration on a Collection should be performed on the type handled by the Collection;Java 8 features should be preferred to Guava;1
+Map.get and value test should be replaced with single method call;switch statements should have default clauses;1
+Fields in a Serializable class should either be transient or serializable;Methods should not have too many parameters;1
+Boolean literals should not be redundant;switch statements should have default clauses;1
+Boxed Boolean should be avoided in boolean expressions;Catches should be combined;1
+Anonymous inner classes containing only one method should become lambdas;Loggers should be named for their enclosing classes;1
+Boxed Boolean should be avoided in boolean expressions;Unused private methods should be removed;1
+@Deprecated code should not be used;Empty arrays and collections should be returned instead of null;1
+Insufficient Modularization;Maps with keys that are enum values should be replaced with EnumMap;1
+Conditionally executed blocks should be reachable;Methods should not be empty;1
+Map.get and value test should be replaced with single method call;Methods should not be empty;1
+Collection.isEmpty() should be used to test for emptiness;Local variables should not shadow class fields;1
+Assignments should not be redundant;Catches should be combined;1
+Getters and setters should access the expected fields;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Dead stores should be removed;Printf-style format strings should be used correctly;1
+Classes from sun.* packages should not be used;Generic exceptions should never be thrown;1
+Local variables should not be declared and then immediately returned or thrown;Source files should not have any duplicated blocks;1
+Try-catch blocks should not be nested;Unnecessary imports should be removed;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Ternary operators should not be nested;1
+Iterator.next() methods should throw NoSuchElementException;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Fields in a Serializable class should either be transient or serializable;Generic exceptions should never be thrown;1
+Modifiers should be declared in the correct order;ThreadLocal variables should be cleaned up when no longer used;1
+StandardCharsets constants should be preferred;The diamond operator (<>) should be used;1
+Boolean literals should not be redundant;Methods should not be empty;1
+Field names should comply with a naming convention;Preconditions and logging arguments should not require evaluation;1
+Collapsible if statements should be merged;Dead stores should be removed;1
+Methods should not have too many parameters;Unused private methods should be removed;1
+Boolean expressions should not be gratuitous;Child class fields should not shadow parent class fields;1
+Getters and setters should access the expected fields;Unutilized Abstraction;1
+Boxed Boolean should be avoided in boolean expressions;Empty arrays and collections should be returned instead of null;1
+Local variables should not be declared and then immediately returned or thrown;Local variables should not shadow class fields;1
+Deprecated code should be removed;Preconditions and logging arguments should not require evaluation;1
+Resources should be closed;Two branches in a conditional structure should not have exactly the same implementation;1
+Broken Hierarchy;Null pointers should not be dereferenced;1
+Static non-final field names should comply with a naming convention;Unnecessary imports should be removed;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;toString() should never be called on a String object;1
+Collection.isEmpty() should be used to test for emptiness;Local variable and method parameter names should comply with a naming convention;1
+Sections of code should not be commented out;String literals should not be duplicated;1
+Fields in a Serializable class should either be transient or serializable;Unnecessary imports should be removed;1
+Collection.isEmpty() should be used to test for emptiness;Empty arrays and collections should be returned instead of null;1
+Strings should not be concatenated using '+' in a loop;switch statements should have default clauses;1
+Conditionally executed blocks should be reachable;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Broken Hierarchy;Loops should not contain more than a single break or continue statement;1
+Methods should not have too many parameters;Wide Hierarchy;1
+Methods and field names should not be the same or differ only by capitalization;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Loops should not contain more than a single break or continue statement;Printf-style format strings should be used correctly;1
+Arrays should not be copied using loops;Preconditions and logging arguments should not require evaluation;1
+Externalizable classes should have no-arguments constructors;Source files should not have any duplicated blocks;1
+Loops should not contain more than a single break or continue statement;Utility classes should not have public constructors;1
+Insufficient Modularization;Private fields only used as local variables in methods should become local variables;1
+Class names should comply with a naming convention;Feature Concentration;1
+Classes from sun.* packages should not be used;Track uses of TODO tags;1
+Local variables should not be declared and then immediately returned or thrown;Sections of code should not be commented out;1
+Fields in a Serializable class should either be transient or serializable;Track uses of TODO tags;1
+Collapsible if statements should be merged;public static fields should be constant;1
+Cyclically-dependent Modularization;Public constants and fields initialized at declaration should be static final rather than merely final;1
+Cyclically-dependent Modularization;Unused method parameters should be removed;1
+@Override should be used on overriding and implementing methods;Deficient Encapsulation;1
+Collection.isEmpty() should be used to test for emptiness;Ternary operators should not be nested;1
+Deprecated code should be removed;Methods should not have identical implementations;1
+Local variables should not be declared and then immediately returned or thrown;Private fields only used as local variables in methods should become local variables;1
+Track uses of TODO tags;Type parameter names should comply with a naming convention;1
+Nested blocks of code should not be left empty;Static non-final field names should comply with a naming convention;1
+Local variable and method parameter names should comply with a naming convention;Loops should not contain more than a single break or continue statement;1
+Methods should not be empty;Using Sockets is security-sensitive;1
+Broken Hierarchy;Class names should comply with a naming convention;1
+Generic exceptions should never be thrown;Preconditions and logging arguments should not require evaluation;1
+Anonymous inner classes containing only one method should become lambdas;Broken Hierarchy;1
+Methods should not return constants;Unutilized Abstraction;1
+Methods should not be empty;Ternary operators should not be nested;1
+Abstract classes without fields should be converted to interfaces;Methods should not have too many parameters;1
+Catches should be combined;Jump statements should not be redundant;1
+Local variables should not shadow class fields;private methods called only by inner classes should be moved to those classes;1
+Methods should not have too many parameters;Redundant casts should not be used;1
+Anonymous inner classes containing only one method should become lambdas;Arrays should not be copied using loops;1
+Deprecated elements should have both the annotation and the Javadoc tag;Methods should not have identical implementations;1
+Feature Concentration;Hashing data is security-sensitive;1
+@Deprecated code should not be used;Local variable and method parameter names should comply with a naming convention;1
+Resources should be closed;Utility classes should not have public constructors;1
+Generic wildcard types should not be used in return parameters;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Source files should not have any duplicated blocks;Try-catch blocks should not be nested;1
+Field names should comply with a naming convention;Unused private fields should be removed;1
+Jump statements should not be redundant;Two branches in a conditional structure should not have exactly the same implementation;1
+Generic exceptions should never be thrown;Overrides should match their parent class methods in synchronization;1
+Null pointers should not be dereferenced;Short-circuit logic should be used in boolean contexts;1
+Local variables should not be declared and then immediately returned or thrown;Loggers should be named for their enclosing classes;1
+@Override should be used on overriding and implementing methods;Boxed Boolean should be avoided in boolean expressions;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Constant names should comply with a naming convention;Field names should comply with a naming convention;1
+Local variable and method parameter names should comply with a naming convention;Null pointers should not be dereferenced;1
+Catches should be combined;StandardCharsets constants should be preferred;1
+Methods should not have too many parameters;Strings should not be concatenated using '+' in a loop;1
+TrustManagers should not blindly accept any certificates;Weak SSL protocols should not be used;1
+Map.get and value test should be replaced with single method call;Redundant casts should not be used;1
+Strings should not be concatenated using '+' in a loop;The diamond operator (<>) should be used;1
+Feature Concentration;Strings should not be concatenated using '+' in a loop;1
+Strings should not be concatenated using '+' in a loop;Unutilized Abstraction;1
+InterruptedException should not be ignored;switch statements should have default clauses;1
+Abstract classes without fields should be converted to interfaces;Track uses of TODO tags;1
+Anonymous inner classes containing only one method should become lambdas;clone should not be overridden;1
+Boxed Boolean should be avoided in boolean expressions;Nullness of parameters should be guaranteed;1
+Classes from sun.* packages should not be used;Insufficient Modularization;1
+StandardCharsets constants should be preferred;Track uses of TODO tags;1
+Mutable fields should not be public static;Unused private fields should be removed;1
+Subclasses that add fields should override equals;Track uses of TODO tags;1
+Class variable fields should not have public accessibility;public static fields should be constant;1
+Exceptions should be either logged or rethrown but not both;Unutilized Abstraction;1
+Constant names should comply with a naming convention;Sections of code should not be commented out;1
+Constant names should comply with a naming convention;Feature Concentration;1
+Deficient Encapsulation;public static fields should be constant;1
+Loops should not contain more than a single break or continue statement;Resources should be closed;1
+Anonymous inner classes containing only one method should become lambdas;Using regular expressions is security-sensitive;1
+Deficient Encapsulation;InterruptedException should not be ignored;1
+Boolean expressions should not be gratuitous;Exceptions should be either logged or rethrown but not both;1
+Feature Concentration;URIs should not be hardcoded;1
+Deficient Encapsulation;Maps with keys that are enum values should be replaced with EnumMap;1
+Track uses of TODO tags;private methods called only by inner classes should be moved to those classes;1
+Type parameter names should comply with a naming convention;throws declarations should not be superfluous;1
+Anonymous inner classes containing only one method should become lambdas;Assignments should not be redundant;1
+Field names should comply with a naming convention;Type parameter names should comply with a naming convention;1
+Changing or bypassing accessibility is security-sensitive;Track uses of TODO tags;1
+Field names should comply with a naming convention;Utility classes should not have public constructors;1
+Fields in a Serializable class should either be transient or serializable;Loops should not contain more than a single break or continue statement;1
+Deficient Encapsulation;Unused local variables should be removed;1
+Constant names should comply with a naming convention;Wide Hierarchy;1
+Modifiers should be declared in the correct order;Track uses of TODO tags;1
+Deprecated code should be removed;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;1
+Empty arrays and collections should be returned instead of null;Local variables should not shadow class fields;1
+Anonymous inner classes containing only one method should become lambdas;Private fields only used as local variables in methods should become local variables;1
+Nested blocks of code should not be left empty;entrySet() should be iterated when both the key and value are needed;1
+Nested blocks of code should not be left empty;URIs should not be hardcoded;1
+Empty arrays and collections should be returned instead of null;Source files should not have any duplicated blocks;1
+Child class fields should not shadow parent class fields;Deprecated code should be removed;1
+Jump statements should not be redundant;Loops should not contain more than a single break or continue statement;1
+String literals should not be duplicated;Unused private methods should be removed;1
+Source files should not have any duplicated blocks;equals(Object obj) and hashCode() should be overridden in pairs;1
+Methods should not have too many parameters;switch statements should have at least 3 case clauses;1
+Generic exceptions should never be thrown;Nested blocks of code should not be left empty;1
+The diamond operator (<>) should be used;Using regular expressions is security-sensitive;1
+Field names should comply with a naming convention;Insufficient Modularization;1
+Hashing data is security-sensitive;Overrides should match their parent class methods in synchronization;1
+Classes should not be compared by name;The diamond operator (<>) should be used;1
+Classes should not be compared by name;Null pointers should not be dereferenced;1
+Boolean literals should not be redundant;Unused private fields should be removed;1
+Fields in a Serializable class should either be transient or serializable;Methods and field names should not be the same or differ only by capitalization;1
+Loggers should be named for their enclosing classes;Throwable and Error should not be caught;1
+Feature Envy;Local variables should not shadow class fields;1
+Generic exceptions should never be thrown;Strings and Boxed types should be compared using equals();1
+Try-catch blocks should not be nested;Unused private fields should be removed;1
+@Override should be used on overriding and implementing methods;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Child class fields should not shadow parent class fields;Cyclically-dependent Modularization;1
+Collection.isEmpty() should be used to test for emptiness;Unused local variables should be removed;1
+Cyclically-dependent Modularization;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;The diamond operator (<>) should be used;1
+Classes from sun.* packages should not be used;StandardCharsets constants should be preferred;1
+Method names should comply with a naming convention;Unutilized Abstraction;1
+Arrays should not be copied using loops;Resources should be closed;1
+Field names should comply with a naming convention;Loops should not contain more than a single break or continue statement;1
+Nullness of parameters should be guaranteed;Unutilized Abstraction;1
+Field names should comply with a naming convention;Unused method parameters should be removed;1
+Track uses of TODO tags;Unused private fields should be removed;1
+Local variables should not be declared and then immediately returned or thrown;String literals should not be duplicated;1
+@Override should be used on overriding and implementing methods;Loops should not contain more than a single break or continue statement;1
+Cyclically-dependent Modularization;InterruptedException should not be ignored;1
+Preconditions and logging arguments should not require evaluation;Unused private fields should be removed;1
+Type parameter names should comply with a naming convention;switch statements should have at least 3 case clauses;1
+Constant names should comply with a naming convention;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Cognitive Complexity of methods should not be too high;Externalizable classes should have no-arguments constructors;1
+Anonymous inner classes containing only one method should become lambdas;Boolean expressions should not be gratuitous;1
+@Deprecated code should not be used;Collapsible if statements should be merged;1
+Collapsible if statements should be merged;Loggers should be named for their enclosing classes;1
+Multifaceted Abstraction;String literals should not be duplicated;1
+Conditionally executed blocks should be reachable;InterruptedException should not be ignored;1
+Broken Hierarchy;Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;1
+Boolean expressions should not be gratuitous;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Methods and field names should not be the same or differ only by capitalization;The diamond operator (<>) should be used;1
+Hashing data is security-sensitive;ThreadLocal.withInitial should be preferred;1
+Generic wildcard types should not be used in return parameters;The diamond operator (<>) should be used;1
+Loops should not contain more than a single break or continue statement;Method names should comply with a naming convention;1
+Generic exceptions should never be thrown;Local variable and method parameter names should comply with a naming convention;1
+Sections of code should not be commented out;Wide Hierarchy;1
+String literals should not be duplicated;Unutilized Abstraction;1
+Printf-style format strings should not lead to unexpected behavior at runtime;Strings and Boxed types should be compared using equals();1
+Catches should be combined;Unused private fields should be removed;1
+Deficient Encapsulation;Sections of code should not be commented out;1
+Methods should not be empty;Weak SSL protocols should not be used;1
+Nullness of parameters should be guaranteed;Unnecessary imports should be removed;1
+Cognitive Complexity of methods should not be too high;Null checks should not be used with instanceof;1
+An iteration on a Collection should be performed on the type handled by the Collection;Strings and Boxed types should be compared using equals();1
+Class variable fields should not have public accessibility;Generic exceptions should never be thrown;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Unutilized Abstraction;1
+Anonymous inner classes containing only one method should become lambdas;Redundant casts should not be used;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Static non-final field names should comply with a naming convention;1
+Try-catch blocks should not be nested;Unutilized Abstraction;1
+Methods should not have identical implementations;Subclasses that add fields should override equals;1
+Field names should comply with a naming convention;Resources should be closed;1
+Source files should not have any duplicated blocks;Using regular expressions is security-sensitive;1
+@Override should be used on overriding and implementing methods;Methods should not have too many parameters;1
+String literals should not be duplicated;Ternary operators should not be nested;1
+Exceptions should be either logged or rethrown but not both;Unused local variables should be removed;1
+Field names should comply with a naming convention;Methods should not have too many parameters;1
+Arrays should not be copied using loops;Java 8 features should be preferred to Guava;1
+Java 8 features should be preferred to Guava;Maps with keys that are enum values should be replaced with EnumMap;1
+Deficient Encapsulation;Loops should not contain more than a single break or continue statement;1
+Methods should not be empty;Printf-style format strings should be used correctly;1
+Empty arrays and collections should be returned instead of null;Local variable and method parameter names should comply with a naming convention;1
+Unutilized Abstraction;equals(Object obj) and hashCode() should be overridden in pairs;1
+Using regular expressions is security-sensitive;throws declarations should not be superfluous;1
+Field names should comply with a naming convention;Java 8 features should be preferred to Guava;1
+InterruptedException should not be ignored;Preconditions and logging arguments should not require evaluation;1
+Anonymous inner classes containing only one method should become lambdas;Try-catch blocks should not be nested;1
+Sections of code should not be commented out;ThreadLocal.withInitial should be preferred;1
+Broken Hierarchy;Method names should comply with a naming convention;1
+Modifiers should be declared in the correct order;Unused private fields should be removed;1
+Class variable fields should not have public accessibility;Null pointers should not be dereferenced;1
+Hashing data is security-sensitive;Modifiers should be declared in the correct order;1
+Redundant pairs of parentheses should be removed;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Strings should not be concatenated using '+' in a loop;Unnecessary imports should be removed;1
+Deprecated code should be removed;InterruptedException should not be ignored;1
+Map.get and value test should be replaced with single method call;throws declarations should not be superfluous;1
+Collection.isEmpty() should be used to test for emptiness;Subclasses that add fields should override equals;1
+Abstract methods should not be redundant;Generic exceptions should never be thrown;1
+Classes should not be compared by name;Preconditions and logging arguments should not require evaluation;1
+Map.get and value test should be replaced with single method call;static base class members should not be accessed via derived types;1
+Conditionally executed blocks should be reachable;Empty arrays and collections should be returned instead of null;1
+Source files should not have any duplicated blocks;Unused method parameters should be removed;1
+Local variables should not shadow class fields;entrySet() should be iterated when both the key and value are needed;1
+Strings and Boxed types should be compared using equals();Unnecessary imports should be removed;1
+Private fields only used as local variables in methods should become local variables;Unused private fields should be removed;1
+Externalizable classes should have no-arguments constructors;Subclasses that add fields should override equals;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Insufficient Modularization;1
+An iteration on a Collection should be performed on the type handled by the Collection;Unused method parameters should be removed;1
+Map.get and value test should be replaced with single method call;Unused private fields should be removed;1
+Collection.isEmpty() should be used to test for emptiness;Method names should comply with a naming convention;1
+Method names should comply with a naming convention;Methods should not be empty;1
+Anonymous inner classes containing only one method should become lambdas;private methods called only by inner classes should be moved to those classes;1
+Assignments should not be redundant;Exceptions should be either logged or rethrown but not both;1
+Strings and Boxed types should be compared using equals();entrySet() should be iterated when both the key and value are needed;1
+Strings and Boxed types should be compared using equals();Unused private fields should be removed;1
+Feature Envy;Methods should not have too many parameters;1
+Nested blocks of code should not be left empty;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Insufficient Modularization;Using regular expressions is security-sensitive;1
+Insufficient Modularization;StandardCharsets constants should be preferred;1
+Constant names should comply with a naming convention;Resources should be closed;1
+Child class fields should not shadow parent class fields;Deficient Encapsulation;1
+@Override should be used on overriding and implementing methods;Strings should not be concatenated using '+' in a loop;1
+Empty arrays and collections should be returned instead of null;TrustManagers should not blindly accept any certificates;1
+Java 8 features should be preferred to Guava;Loops should not contain more than a single break or continue statement;1
+Boxed Boolean should be avoided in boolean expressions;Resources should be closed;1
+Generic exceptions should never be thrown;Type parameter names should comply with a naming convention;1
+Boolean literals should not be redundant;Deprecated elements should have both the annotation and the Javadoc tag;1
+Generic exceptions should never be thrown;Jump statements should not be redundant;1
+An iteration on a Collection should be performed on the type handled by the Collection;Collapsible if statements should be merged;1
+Anonymous inner classes containing only one method should become lambdas;Generic wildcard types should not be used in return parameters;1
+Nested blocks of code should not be left empty;Unused local variables should be removed;1
+Abstract classes without fields should be converted to interfaces;entrySet() should be iterated when both the key and value are needed;1
+Boxed Boolean should be avoided in boolean expressions;Deprecated code should be removed;1
+The diamond operator (<>) should be used;URIs should not be hardcoded;1
+Unutilized Abstraction;switch statements should have at least 3 case clauses;1
+StandardCharsets constants should be preferred;entrySet() should be iterated when both the key and value are needed;1
+InterruptedException should not be ignored;String literals should not be duplicated;1
+Maps with keys that are enum values should be replaced with EnumMap;Unused private fields should be removed;1
+URIs should not be hardcoded;Unused local variables should be removed;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;throws declarations should not be superfluous;1
+@Deprecated code should not be used;Methods should not have identical implementations;1
+Boxed Boolean should be avoided in boolean expressions;switch statements should have default clauses;1
+Local variables should not shadow class fields;Unused private fields should be removed;1
+Two branches in a conditional structure should not have exactly the same implementation;Unnecessary imports should be removed;1
+@Deprecated code should not be used;Resources should be closed;1
+Anonymous inner classes containing only one method should become lambdas;Methods should not be empty;1
+Class names should comply with a naming convention;Cyclically-dependent Modularization;1
+Preconditions and logging arguments should not require evaluation;Source files should not have any duplicated blocks;1
+Deprecated code should be removed;Local variables should not shadow class fields;1
+Deficient Encapsulation;Mutable fields should not be public static;1
+An iteration on a Collection should be performed on the type handled by the Collection;Methods should not have too many parameters;1
+Deprecated elements should have both the annotation and the Javadoc tag;Track uses of TODO tags;1
+@Deprecated code should not be used;Local variables should not be declared and then immediately returned or thrown;1
+Cognitive Complexity of methods should not be too high;Modifiers should be declared in the correct order;1
+Collapsible if statements should be merged;Map.get and value test should be replaced with single method call;1
+Deprecated code should be removed;Track uses of TODO tags;1
+Constants should not be defined in interfaces;String literals should not be duplicated;1
+Loggers should be named for their enclosing classes;Modifiers should be declared in the correct order;1
+Boolean literals should not be redundant;Source files should not have any duplicated blocks;1
+Cognitive Complexity of methods should not be too high;static base class members should not be accessed via derived types;1
+Sections of code should not be commented out;static base class members should not be accessed via derived types;1
+Feature Concentration;Using Sockets is security-sensitive;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Subclasses that add fields should override equals;1
+Methods should not have identical implementations;Unnecessary imports should be removed;1
+@Deprecated code should not be used;switch statements should have default clauses;1
+Constant names should comply with a naming convention;The diamond operator (<>) should be used;1
+An iteration on a Collection should be performed on the type handled by the Collection;Generic exceptions should never be thrown;1
+Local variable and method parameter names should comply with a naming convention;Methods should not be empty;1
+Unnecessary imports should be removed;Unused private methods should be removed;1
+@Deprecated code should not be used;Exceptions should be either logged or rethrown but not both;1
+Null pointers should not be dereferenced;Utility classes should not have public constructors;1
+Child class fields should not shadow parent class fields;entrySet() should be iterated when both the key and value are needed;1
+Jump statements should not be redundant;Track uses of TODO tags;1
+Cyclically-dependent Modularization;Preconditions and logging arguments should not require evaluation;1
+InterruptedException should not be ignored;Unutilized Abstraction;1
+Cognitive Complexity of methods should not be too high;Unused private methods should be removed;1
+Multifaceted Abstraction;Unused method parameters should be removed;1
+Two branches in a conditional structure should not have exactly the same implementation;entrySet() should be iterated when both the key and value are needed;1
+Feature Concentration;hashCode and toString should not be called on array instances;1
+Sections of code should not be commented out;Unused private fields should be removed;1
+Cognitive Complexity of methods should not be too high;Wide Hierarchy;1
+String literals should not be duplicated;Utility classes should not have public constructors;1
+Exceptions should be either logged or rethrown but not both;Type parameter names should comply with a naming convention;1
+Boolean expressions should not be gratuitous;Unused private methods should be removed;1
+Map.get and value test should be replaced with single method call;String literals should not be duplicated;1
+Overriding methods should do more than simply call the same method in the super class;Subclasses that add fields should override equals;1
+Preconditions and logging arguments should not require evaluation;Strings should not be concatenated using '+' in a loop;1
+Child class fields should not shadow parent class fields;Ternary operators should not be nested;1
+Constants should not be defined in interfaces;URIs should not be hardcoded;1
+Dead stores should be removed;Source files should not have any duplicated blocks;1
+Null pointers should not be dereferenced;Two branches in a conditional structure should not have exactly the same implementation;1
+Boolean expressions should not be gratuitous;Two branches in a conditional structure should not have exactly the same implementation;1
+Anonymous inner classes containing only one method should become lambdas;Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;1
+Deprecated elements should have both the annotation and the Javadoc tag;Local variables should not shadow class fields;1
+@Deprecated code should not be used;Strings should not be concatenated using '+' in a loop;1
+Anonymous inner classes containing only one method should become lambdas;Short-circuit logic should be used in boolean contexts;1
+Local variable and method parameter names should comply with a naming convention;Try-catch blocks should not be nested;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Redundant pairs of parentheses should be removed;1
+Methods should not be empty;Multifaceted Abstraction;1
+Printf-style format strings should be used correctly;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Boxed Boolean should be avoided in boolean expressions;Collection.isEmpty() should be used to test for emptiness;1
+Feature Concentration;Methods should not return constants;1
+Conditionally executed blocks should be reachable;Unused method parameters should be removed;1
+Sections of code should not be commented out;Unnecessary imports should be removed;1
+Map.get and value test should be replaced with single method call;Ternary operators should not be nested;1
+Insufficient Modularization;Resources should be closed;1
+Empty statements should be removed;Unutilized Abstraction;1
+Field names should comply with a naming convention;Non-primitive fields should not be volatile;1
+entrySet() should be iterated when both the key and value are needed;write(byte[] int int) should be overridden;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;static base class members should not be accessed via derived types;1
+Insufficient Modularization;Strings and Boxed types should be compared using equals();1
+@Override should be used on overriding and implementing methods;Modifiers should be declared in the correct order;1
+Cyclically-dependent Modularization;Local variables should not shadow class fields;1
+Declarations should use Java collection interfaces such as List rather than specific implementation classes such as LinkedList;Iterator.next() methods should throw NoSuchElementException;1
+Short-circuit logic should be used in boolean contexts;Unnecessary imports should be removed;1
+Boolean literals should not be redundant;Unutilized Abstraction;1
+Local variables should not shadow class fields;String literals should not be duplicated;1
+Boolean literals should not be redundant;Local variables should not be declared and then immediately returned or thrown;1
+Abstract classes without fields should be converted to interfaces;Java 8 features should be preferred to Guava;1
+Methods should not have too many parameters;Nullness of parameters should be guaranteed;1
+Local variable and method parameter names should comply with a naming convention;Track uses of TODO tags;1
+Unutilized Abstraction;write(byte[] int int) should be overridden;1
+Redundant casts should not be used;Track uses of TODO tags;1
+Class names should comply with a naming convention;Cognitive Complexity of methods should not be too high;1
+Collapsible if statements should be merged;Redundant casts should not be used;1
+Cognitive Complexity of methods should not be too high;Static non-final field names should comply with a naming convention;1
+Null pointers should not be dereferenced;Nullness of parameters should be guaranteed;1
+Jump statements should not be redundant;entrySet() should be iterated when both the key and value are needed;1
+Null checks should not be used with instanceof;Preconditions and logging arguments should not require evaluation;1
+Modifiers should be declared in the correct order;Overrides should match their parent class methods in synchronization;1
+Strings should not be concatenated using '+' in a loop;Unused private methods should be removed;1
+Boolean expressions should not be gratuitous;Boolean literals should not be redundant;1
+@Override should be used on overriding and implementing methods;throws declarations should not be superfluous;1
+Broken Modularization;Feature Concentration;1
+Unused private methods should be removed;switch statements should have default clauses;1
+Cyclically-dependent Modularization;Empty arrays and collections should be returned instead of null;1
+Boxed Boolean should be avoided in boolean expressions;Preconditions and logging arguments should not require evaluation;1
+Anonymous inner classes containing only one method should become lambdas;Fields in a Serializable class should either be transient or serializable;1
+Throwable.printStackTrace(...) should not be called;Utility classes should not have public constructors;1
+Ternary operators should not be nested;Unnecessary imports should be removed;1
+Local variables should not shadow class fields;Wide Hierarchy;1
+Boxed Boolean should be avoided in boolean expressions;Local variable and method parameter names should comply with a naming convention;1
+Feature Concentration;TrustManagers should not blindly accept any certificates;1
+Modifiers should be declared in the correct order;Sections of code should not be commented out;1
+@Deprecated code should not be used;Fields in a Serializable class should either be transient or serializable;1
+@Deprecated code should not be used;Deprecated elements should have both the annotation and the Javadoc tag;1
+Deprecated code should be removed;Unnecessary Abstraction;1
+Broken Modularization;String literals should not be duplicated;1
+Cyclically-dependent Modularization;Null pointers should not be dereferenced;1
+Cyclically-dependent Modularization;switch statements should have default clauses;1
+Boolean expressions should not be gratuitous;Loops should not contain more than a single break or continue statement;1
+Unused method parameters should be removed;Wide Hierarchy;1
+Arrays should not be copied using loops;Field names should comply with a naming convention;1
+Dead stores should be removed;Exceptions should be either logged or rethrown but not both;1
+Field names should comply with a naming convention;Printf-style format strings should be used correctly;1
+Child class fields should not shadow parent class fields;Unused private methods should be removed;1
+The diamond operator (<>) should be used;notifyAll should be used;1
+TrustManagers should not blindly accept any certificates;Using Sockets is security-sensitive;1
+@Override should be used on overriding and implementing methods;Loggers should be named for their enclosing classes;1
+Nested blocks of code should not be left empty;Null pointers should not be dereferenced;1
+@Deprecated code should not be used;Boolean expressions should not be gratuitous;1
+Cyclically-dependent Modularization;Methods should not be empty;1
+Loops should not contain more than a single break or continue statement;Strings and Boxed types should be compared using equals();1
+Classes from sun.* packages should not be used;Sections of code should not be commented out;1
+Track uses of TODO tags;Utility classes should not have public constructors;1
+Loops should not contain more than a single break or continue statement;Try-catch blocks should not be nested;1
+Empty arrays and collections should be returned instead of null;Unnecessary imports should be removed;1
+Nested blocks of code should not be left empty;Strings and Boxed types should be compared using equals();1
+Insufficient Modularization;Try-catch blocks should not be nested;1
+Collection.isEmpty() should be used to test for emptiness;Conditionally executed blocks should be reachable;1
+Insufficient Modularization;private methods called only by inner classes should be moved to those classes;1
+Fields in a Serializable class should either be transient or serializable;Source files should not have any duplicated blocks;1
+Deprecated elements should have both the annotation and the Javadoc tag;Unnecessary imports should be removed;1
+Classes should not be compared by name;Track uses of TODO tags;1
+Anonymous inner classes containing only one method should become lambdas;Exceptions should be either logged or rethrown but not both;1
+Ternary operators should not be nested;Unused private fields should be removed;1
+@Deprecated code should not be used;Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;1
+Methods should not be empty;Null pointers should not be dereferenced;1
+Loops should not contain more than a single break or continue statement;Private fields only used as local variables in methods should become local variables;1
+Fields in a Serializable class should either be transient or serializable;Modifiers should be declared in the correct order;1
+Map.get and value test should be replaced with single method call;Maps with keys that are enum values should be replaced with EnumMap;1
+Boolean literals should not be redundant;Try-catch blocks should not be nested;1
+Local variables should not be declared and then immediately returned or thrown;Type parameter names should comply with a naming convention;1
+Boxed Boolean should be avoided in boolean expressions;Strings should not be concatenated using '+' in a loop;1
+Boolean literals should not be redundant;Strings and Boxed types should be compared using equals();1
+Deprecated elements should have both the annotation and the Javadoc tag;Unnecessary Abstraction;1
+Deficient Encapsulation;Non-primitive fields should not be volatile;1
+Boolean expressions should not be gratuitous;String literals should not be duplicated;1
+@Deprecated code should not be used;Null pointers should not be dereferenced;1
+Boolean literals should not be redundant;Null pointers should not be dereferenced;1
+Conditionally executed blocks should be reachable;switch statements should have default clauses;1
+Changing or bypassing accessibility is security-sensitive;Null checks should not be used with instanceof;1
+Classes from sun.* packages should not be used;static base class members should not be accessed via derived types;1
+Constructors should not be used to instantiate String  BigInteger  BigDecimal and primitive-wrapper classes;Source files should not have any duplicated blocks;1
+Boolean expressions should not be gratuitous;Deficient Encapsulation;1
+Type parameter names should comply with a naming convention;Utility classes should not have public constructors;1
+Source files should not have any duplicated blocks;write(byte[] int int) should be overridden;1
+@Deprecated code should not be used;Preconditions and logging arguments should not require evaluation;1
+Methods should not be empty;Try-catch blocks should not be nested;1
+Cognitive Complexity of methods should not be too high;Subclasses that add fields should override equals;1
+@Deprecated code should not be used;Collection.isEmpty() should be used to test for emptiness;1
+StandardCharsets constants should be preferred;String literals should not be duplicated;1
+Boolean literals should not be redundant;Unused method parameters should be removed;1
+Assignments should not be redundant;Source files should not have any duplicated blocks;1
+Two branches in a conditional structure should not have exactly the same implementation;Utility classes should not have public constructors;1
+Synchronized classes Vector  Hashtable  Stack and StringBuffer should not be used;Unused method parameters should be removed;1
+Redundant pairs of parentheses should be removed;Unnecessary imports should be removed;1
+Cognitive Complexity of methods should not be too high;Printf-style format strings should not lead to unexpected behavior at runtime;1
+Empty arrays and collections should be returned instead of null;InterruptedException should not be ignored;1
+Insufficient Modularization;clone should not be overridden;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Unused private methods should be removed;1
+Classes from sun.* packages should not be used;entrySet() should be iterated when both the key and value are needed;1
+Collapsible if statements should be merged;Return of boolean expressions should not be wrapped into an if-then-else statement;1
+Iterator.next() methods should throw NoSuchElementException;Unnecessary imports should be removed;1
+Constant names should comply with a naming convention;Printf-style format strings should be used correctly;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;entrySet() should be iterated when both the key and value are needed;1
+Child class fields should not shadow parent class fields;Loops should not contain more than a single break or continue statement;1
+Feature Concentration;Iterator.next() methods should throw NoSuchElementException;1
+@Override should be used on overriding and implementing methods;Changing or bypassing accessibility is security-sensitive;1
+Methods should not have too many parameters;Utility classes should not have public constructors;1
+Exceptions should be either logged or rethrown but not both;Printf-style format strings should be used correctly;1
+@Override should be used on overriding and implementing methods;Local variables should not shadow class fields;1
+Modifiers should be declared in the correct order;ThreadLocal.withInitial should be preferred;1
+Nested blocks of code should not be left empty;public static fields should be constant;1
+Return of boolean expressions should not be wrapped into an if-then-else statement;Wide Hierarchy;1
+Cognitive Complexity of methods should not be too high;Loggers should be named for their enclosing classes;1
+Methods should not be empty;Preconditions and logging arguments should not require evaluation;1
+Null pointers should not be dereferenced;Redundant casts should not be used;1
+Insufficient Modularization;Methods and field names should not be the same or differ only by capitalization;1
+Broken Hierarchy;String literals should not be duplicated;1
