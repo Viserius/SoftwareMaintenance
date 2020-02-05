@@ -5,13 +5,17 @@ import java.util.Objects;
 public class CommonSmellTuple {
 
     private String firstSmell;
+    private String firstSmellType;
     private String secondSmell;
+    private String secondSmellType;
 
     public CommonSmellTuple(){}
 
-    public CommonSmellTuple(String firstSmell, String secondSmell) {
+    public CommonSmellTuple(String firstSmell, String firstSmellType, String secondSmell, String secondSmellType) {
         this.firstSmell = firstSmell;
+        this.firstSmellType = firstSmellType;
         this.secondSmell = secondSmell;
+        this.secondSmellType = secondSmellType;
     }
 
     public String getFirstSmell() {
@@ -20,6 +24,14 @@ public class CommonSmellTuple {
 
     public String getSecondSmell() {
         return secondSmell;
+    }
+
+    public String getFirstSmellType() {
+        return firstSmellType;
+    }
+
+    public String getSecondSmellType() {
+        return secondSmellType;
     }
 
     @Override

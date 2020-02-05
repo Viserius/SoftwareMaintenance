@@ -66,7 +66,7 @@ public class ParserRunner {
 
         String smellName = dataRow[2];
         for (String className : classNames.split(";")) {
-            smellRegistry.add(packageName + "." + className, smellName);
+            smellRegistry.add(packageName + "." + className, new Smell(smellName, "Architectural Smell"));
         }
     }
 
@@ -74,7 +74,7 @@ public class ParserRunner {
         String className = dataRow[1] + "." + dataRow[2];
         String smellName = dataRow[3];
 
-        smellRegistry.add(className, smellName);
+        smellRegistry.add(className, new Smell(smellName, "Design Smell"));
     }
 
     private void parseSonarCodeSmells(String[] dataRow) {
@@ -89,7 +89,7 @@ public class ParserRunner {
         if(!className.contains(".java")) return;
         className = className.replace(".java", "");
 
-        smellRegistry.add(className, smellName);
+        smellRegistry.add(className, new Smell(smellName, "Code Smell"));
     }
 
 }

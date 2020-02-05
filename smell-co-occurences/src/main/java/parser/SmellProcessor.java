@@ -18,23 +18,24 @@ public class SmellProcessor {
 
     public void process() {
         // For every file, aggregate the smells
-        for(Map.Entry<String, HashSet<String>> entry : this.smellRegistry.getSmellRegistry().entrySet()) {
+        for(Map.Entry<String, HashSet<Smell>> entry : this.smellRegistry.getSmellRegistry().entrySet()) {
             String className = entry.getKey();
-            HashSet Smells = entry.getValue();
+            HashSet<Smell> Smells = entry.getValue();
 
             aggregateSmells(Smells);
         }
     }
 
-    private void aggregateSmells(HashSet<String> smells) {
+    private void aggregateSmells(HashSet<Smell> smells) {
         // Ordered list of smells
-        String[] orderedSmells = smells.toArray(new String[0]);
+        Smell[] orderedSmells = smells.toArray(new Smell[0]);
         Arrays.sort(orderedSmells);
 
         // For every possible combination, increment the count with 1
         for(int i = 0; i < orderedSmells.length; i++) {
             for(int j = i+1; j < orderedSmells.length; j++) {
-                CommonSmellTuple tuple = new CommonSmellTuple(orderedSmells[i], orderedSmells[j]);
+                CommonSmellTuple tuple = new CommonSmellTuple(orderedSmells[i].getSmellName(), orderedSmells[i].getSmellType(),
+                        orderedSmells[j].getSmellName(), orderedSmells[j].getSmellType());
                 incrementSmells(tuple);
             }
         }
@@ -53,7 +54,11 @@ public class SmellProcessor {
         for(Map.Entry<CommonSmellTuple,Integer> entry : smellTuples.entrySet()) {
             csvWriter.append(entry.getKey().getFirstSmell());
             csvWriter.append(',');
+            csvWriter.append(entry.getKey().getFirstSmellType());
+            csvWriter.append(',');
             csvWriter.append(entry.getKey().getSecondSmell());
+            csvWriter.append(',');
+            csvWriter.append(entry.getKey().getSecondSmellType());
             csvWriter.append(',');
             csvWriter.append(entry.getValue().toString());
             csvWriter.append('\n');
